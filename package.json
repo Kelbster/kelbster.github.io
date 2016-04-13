@@ -1,0 +1,16 @@
+{
+  "name": "kelbster",
+  "author": "Kelby Gassman",
+  "license": "MIT",
+  "description": "Kelby Gassman",
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-csso": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.2.0",
+    "gulp-util": "^3.0.7"
+  }
+}

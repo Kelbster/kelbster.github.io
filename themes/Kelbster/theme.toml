@@ -1,0 +1,11 @@
+name = "Kelbster"
+license = "MIT" 
+licenselink = "https://github.com/kelbster/kelbster/LICENSE.md"
+description = "Kelbster's theme"
+tags = [""]
+features = [""]
+min_version = 0.14
+
+[author]
+    name = "kelbster"
+    homepage = "http://kelbster.github.io"
