@@ -6,6 +6,10 @@ My blog-style dev portfolio and personal site, [kelbster.github.io](http://kelbs
 
 ##Installation
 
+*All development and site modifications are done on `dev` branch. `master` only serves pages for kelbster.github.io*
+
+`git clone` and checkout `dev`
+
 Install [Hugo](https://gohugo.io/) v0.15 or later 
 
 and modules for gulpy styles compilation and minification
@@ -30,4 +34,4 @@ Start `gulp` to build and watch styles
 
 Run `bash deploy.sh` 
 
-This will rebuild hugo with Kelbster theme and commit all changes and push to master, then deploy `public` to gh-pages
+This will rebuild hugo with Kelbster theme and commit all changes and push to dec, then deploy `public` to master
