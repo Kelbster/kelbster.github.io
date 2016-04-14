@@ -7,12 +7,17 @@
             </p>
         </div>
 
-        <ul class="sidebar-nav">
-            <li><a href="/">Home</a> </li>
-            {{ range .Site.Menus.main }}
-            <li><a href="{{.URL}}"> {{ .Name }} </a></li>
-            {{end}}
-        </ul>
+
+        <nav class="sidebar-nav">
+            <ul>
+                {{ $currentNode := . }}
+                {{ range .Site.Menus.main }}
+                <li><a class="sidebar-nav-item{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}">{{ .Name }}</a></li>
+                {{ end }}
+            </ul>
+        </nav>
+
+
 
         <div class="copyright">
             <p class="p-small">Built with <a href="https://gohugo.io/" target="_blank">Hugo</a></p>

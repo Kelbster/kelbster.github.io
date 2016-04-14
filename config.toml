@@ -1,4 +1,19 @@
 baseurl = "http://kelbster.github.io/"
 languageCode = "en-us"
 title = "Kelby Gassman"
+author = "Kelby Gassman"
+copyright = "Copyright (c) 2016, Kelby Gassman; all rights reserved."
 theme = "Kelbster"
+paginate = 3
+canonifyurls = true
+
+[[menu.main]]
+    name = "Home"
+    weight = 0
+    identifier = "home"
+    url = "/"
+[[menu.main]]
+  name = "About"
+  weight = 1
+  identifier = "about"
+  url = "/about/"

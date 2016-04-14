@@ -6,6 +6,7 @@
     <description>Recent content in Posts on Kelby Gassman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Copyright (c) 2016, Kelby Gassman; all rights reserved.</copyright>
     <lastBuildDate>Sun, 20 Mar 2016 12:33:27 -0400</lastBuildDate>
     <atom:link href="http://kelbster.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,8 +16,31 @@
       <pubDate>Sun, 20 Mar 2016 12:33:27 -0400</pubDate>
       
       <guid>http://kelbster.github.io/post/cssVars/</guid>
-      <description>&lt;p&gt;&lt;p data-height=&#34;268&#34; data-theme-id=&#34;23383&#34; data-slug-hash=&#34;pgqYGr&#34; data-default-tab=&#34;result&#34; data-user=&#34;Kelbster&#34; class=&#34;codepen&#34;&gt;See the Pen &lt;a href=&#34;http://codepen.io/Kelbster/pen/pgqYGr/&#34;&gt;Woot! CSS Variables&lt;/a&gt; by Kelby Gassman (&lt;a href=&#34;http://codepen.io/Kelbster&#34;&gt;@Kelbster&lt;/a&gt;) on &lt;a href=&#34;http://codepen.io&#34;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
-&lt;script async src=&#34;//assets.codepen.io/assets/embed/ei.js&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://codepen.io/Kelbster/pen/pgqYGr/&#34; target=&#34;_blank&#34;&gt;View/Edit on &lt;span class=&#34;codepen&#34;&gt;C&lt;i class=&#34;fa fa-codepen&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;DEPEN&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;:root {
+  --primary: #cccccc;
+  --accent: #4f4f4f;
+  --tertiary: gray;
+  --background-color: #f1f1f1;
+  --font-family: &#39;Roboto Condensed&#39;, arial, sans-serif;
+  --font-size: 16px;
+  --fontColorPrimary: #1f1f1f;
+  --fontColorAccent: #f3f3f3;
+  --panelPadding: 16px;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;function octocat() {
+  var octocat = document.documentElement.style;
+  octocat.setProperty(&#39;--primary&#39;, &#39;#f5f5f5&#39;);
+  octocat.setProperty(&#39;--accent&#39;, &#39;#7d60a7&#39;);
+  octocat.setProperty(&#39;--tertiary&#39;, &#39;#64a55d&#39;);
+  octocat.setProperty(&#39;--background-color&#39;, &#39;#ffffff&#39;);
+  octocat.setProperty(&#39;--fontColorPrimary&#39;, &#39;#0e8ab7&#39;);
+  octocat.setProperty(&#39;--fontColorAccent&#39;, &#39;#ffffff&#39;);
+} 
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     

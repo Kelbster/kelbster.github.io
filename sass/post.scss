@@ -14,8 +14,15 @@
 .post-title {
   a {
     color: inherit;
+    &:before, &:after {
+      display: none;
+    }
   }
 }
 .post-date {
   color: #676767;
+}
+
+.codepen {
+  letter-spacing: 0.1em;
 }
