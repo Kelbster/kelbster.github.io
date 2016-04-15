@@ -3,7 +3,9 @@ html, body {
   padding: 0; 
 }
 
-/* content container */
+/*
+ * Content container 
+ */
 .content {
   margin-left: 1em;
   margin-right: 1em;
@@ -20,5 +22,28 @@ html, body {
     max-width: 44em;
     margin-left: 18em;
     margin-right: 4em;
+  }
+}
+
+/*
+ * Sidebar
+ */
+.sidebar {
+  @media (min-width: 48em) {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 10em;
+    text-align: left;
+  }
+}
+/* 
+ * Copyright
+ */
+.copyright {
+  @media (min-width: 48em) {
+    position: fixed;
+    bottom: 0;
   }
 }
