@@ -5,4 +5,4 @@ title = "About"
 
 I love using Codepen to share code. It's great for collaborating with coworkers, experimenting, and prototyping.
 
-![Kelby](/images/kelbygassman.png)
+![Kelby](/images/kelbygassman.jpg)
