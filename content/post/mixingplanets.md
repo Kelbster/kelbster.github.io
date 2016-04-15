@@ -3,5 +3,24 @@ date = "2016-03-09T12:38:18-04:00"
 title = "Mixing Planets"
 +++
 
-<p data-height="268" data-theme-id="23383" data-slug-hash="GoYrRJ" data-default-tab="result" data-user="Kelbster" class="codepen">See the Pen <a href="http://codepen.io/Kelbster/pen/GoYrRJ/">Mixing Planets</a> by Kelby Gassman (<a href="http://codepen.io/Kelbster">@Kelbster</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+<a class="a-no-underline" href="http://codepen.io/Kelbster/pen/GoYrRJ/" target="_blank">
+![Planets](/images/planets.png)
+</a>
+
+This was a fun experiment with Sass mixins and multiple parameters. Mixins are really great for building modular CSS and keeping your code DRY. 
+
+Each planet is styled entirely by the one `planet` mixin, and passing parameters.
+
+```
+@mixin planet($planetSize, $planetColor, $ringSize, $ringColor, $moonSize) {
+    // planet properties
+}
+```
+
+```
+.p3 {
+  @include planet(140px, #6ACBA8, 20px, lighten(#6ACBA8, 15), 0);
+}
+```
+
+<a href="http://codepen.io/Kelbster/pen/GoYrRJ/" target="_blank">View/Edit on <span class="codepen">C<i class="fa fa-codepen" aria-hidden="true"></i>DEPEN</span></a>

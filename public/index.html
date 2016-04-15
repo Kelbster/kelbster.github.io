@@ -25,32 +25,44 @@
     <body>
 
         <div class="sidebar">
-    <div class="container sidebar-sticky">
-        <div>
-            <a class="logo" href="http://kelbster.github.io/"><h1>KG</h1></a>
-            <p class="subtitle">
-                Kelby Gassman
-            </p>
+    <div>
+        <a class="logo a-no-underline" href="http://kelbster.github.io/"><h1>KG</h1></a>
+        <p class="subtitle">
+            Kelby Gassman
+        </p>
+        <div class="social">
+            <a class="a-no-underline" href="https://twitter.com/kelbygassman" target="_blank">
+                <i class="fa fa-twitter-square"></i>
+            </a>
+            <a class="a-no-underline" href="https://www.linkedin.com/in/kelby-gassman-449aa130" target="_blank">
+                <i class="fa fa-linkedin-square"></i>
+            </a>
+            <a class="a-no-underline" href="https://github.com/kelbster" target="_blank">
+                <i class="fa fa-github-square"></i>
+            </a>
+            <a class="a-no-underline" href="https://codepen.io/kelbster" target="_blank">
+                <i class="fa fa-codepen"></i>
+            </a>
         </div>
+    </div>
 
 
-        <nav class="sidebar-nav">
-            <ul>
-                
-                
-                <li><a class="sidebar-nav-item active" href="http://kelbster.github.io/">Home</a></li>
-                
-                <li><a class="sidebar-nav-item" href="http://kelbster.github.io/about/">About</a></li>
-                
-            </ul>
-        </nav>
+    <nav class="sidebar-nav">
+        <ul>
+            
+            
+            <li><a class="sidebar-nav-item active" href="http://kelbster.github.io/">Home</a></li>
+            
+            <li><a class="sidebar-nav-item" href="http://kelbster.github.io/about/">About</a></li>
+            
+        </ul>
+    </nav>
 
 
 
-        <div class="copyright">
-            <p class="p-small">Built with <a href="https://gohugo.io/" target="_blank">Hugo</a></p>
-            <p class="p-small">&copy; 2016. All rights reserved. </p>
-        </div>
+    <div class="copyright">
+        <p class="p-small">Built with <a href="https://gohugo.io/" target="_blank">Hugo</a></p>
+        <p class="p-small">&copy; 2016. All rights reserved. </p>
     </div>
 </div>
 
@@ -64,8 +76,13 @@
                             CSS Variables!
                         </a>
                     </h1>
-                    <span class="post-date">Sun, Mar 20, 2016</span>
-                    <p><a href="http://codepen.io/Kelbster/pen/pgqYGr/" target="_blank">View/Edit on <span class="codepen">C<i class="fa fa-codepen" aria-hidden="true"></i>DEPEN</span></a></p>
+                    
+                    <p>Or &ldquo;CSS custom properties&rdquo;, are awesome. But CSS preprocessors already have variables! That&rsquo;s true. CSS preprocessors have many features that will keep me using them for a long time, but preprocessor variables are static and require recompiling after any changes.
+CSS custom properities, however, allow you to update CSS variables at runtime. One of many potential use cases is the ability to dynamically theme an application or site.</p>
+
+<p>I decided to experiment with them for myself. There is a snippet below featuring the root variables and a simple function I used to set their properties at the click of a button.</p>
+
+<p><a href="http://codepen.io/Kelbster/pen/pgqYGr/" target="_blank">View/Edit on <span class="codepen">C<i class="fa fa-codepen" aria-hidden="true"></i>DEPEN</span></a></p>
 
 <pre><code>:root {
   --primary: #cccccc;
@@ -76,7 +93,7 @@
   --font-size: 16px;
   --fontColorPrimary: #1f1f1f;
   --fontColorAccent: #f3f3f3;
-  --panelPadding: 16px;
+  --panelPadding: 1em;
 }
 </code></pre>
 
@@ -99,9 +116,16 @@
                             Vertical Flex
                         </a>
                     </h1>
-                    <span class="post-date">Sun, Mar 13, 2016</span>
-                    <p><p data-height="268" data-theme-id="23383" data-slug-hash="xVYXbX" data-default-tab="result" data-user="Kelbster" class="codepen">See the Pen <a href="http://codepen.io/Kelbster/pen/xVYXbX/">Vertical Flex</a> by Kelby Gassman (<a href="http://codepen.io/Kelbster">@Kelbster</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script></p>
+                    
+                    <p>A client needed a navigation that would adapt to the screen height of multiple devices and orientations for their React Native application. At first, I considered using a grid and element heights of, say, 33%. This works perfectly fine if you know the number of elements and their contents are static.</p>
+
+<p><a href="http://codepen.io/Kelbster/pen/YqaYyW" target="_blank">Fixed Vertical &ldquo;Flex&rdquo; on <span class="codepen">C<i class="fa fa-codepen" aria-hidden="true"></i>DEPEN</span></a></p>
+
+<p>However, we need it to be flexible with a dynamic number of elements and maybe even their contents. In this case <code>display: flex</code> makes our job easier. Utilizing flex properties, the number of elements and the size of their contents can be dynamic while still fitting the height of the screen. Though it will fit more, or fewer, 4-8 elements would be ideal. The example linked below provides much better options than the grid/fixed height version.</p>
+
+<p><a href="http://codepen.io/Kelbster/pen/xVYXbX/" target="_blank">Vertical Flex on <span class="codepen">C<i class="fa fa-codepen" aria-hidden="true"></i>DEPEN</span></a></p>
+
+<p>This isn&rsquo;t my first rodeo with Flexbox; I use it quite a bit. It&rsquo;s a very useful tool and solves a great many layout problems. It&rsquo;s tempting to <em>flex all the things!</em> Just remember to <strong>think</strong> about the problem first, <strong>iterate</strong>, and <strong>experiment</strong>.</p>
 
                 </div>
               
@@ -111,26 +135,93 @@
                             Mixing Planets
                         </a>
                     </h1>
-                    <span class="post-date">Wed, Mar 9, 2016</span>
-                    <p><p data-height="268" data-theme-id="23383" data-slug-hash="GoYrRJ" data-default-tab="result" data-user="Kelbster" class="codepen">See the Pen <a href="http://codepen.io/Kelbster/pen/GoYrRJ/">Mixing Planets</a> by Kelby Gassman (<a href="http://codepen.io/Kelbster">@Kelbster</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+                    
+                    <p><a class="a-no-underline" href="http://codepen.io/Kelbster/pen/GoYrRJ/" target="_blank">
+<img src="http://kelbster.github.io/images/planets.png" alt="Planets" />
+</a></p>
+
+<p>This was a fun experiment with Sass mixins and multiple parameters. Mixins are really great for building modular CSS and keeping your code DRY.</p>
+
+<p>Each planet is styled entirely by the one <code>planet</code> mixin, and passing parameters.</p>
+
+<pre><code>@mixin planet($planetSize, $planetColor, $ringSize, $ringColor, $moonSize) {
+    // planet properties
+}
+</code></pre>
+
+<pre><code>.p3 {
+  @include planet(140px, #6ACBA8, 20px, lighten(#6ACBA8, 15), 0);
+}
+</code></pre>
+
+<p><a href="http://codepen.io/Kelbster/pen/GoYrRJ/" target="_blank">View/Edit on <span class="codepen">C<i class="fa fa-codepen" aria-hidden="true"></i>DEPEN</span></a></p>
+
+                </div>
+              
+                <div class="post">
+                    <h1 class="post-title">
+                        <a href="http://kelbster.github.io/post/quickScale/">
+                            QuickScale
+                        </a>
+                    </h1>
+                    
+                    <p><p data-height="268" data-theme-id="23383" data-slug-hash="oxvpgL" data-default-tab="result" data-user="Kelbster" class="codepen">See the Pen <a href="http://codepen.io/Kelbster/pen/oxvpgL/">Quick Little Scale</a> by Kelby Gassman (<a href="http://codepen.io/Kelbster">@Kelbster</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script></p>
+
+                </div>
+              
+                <div class="post">
+                    <h1 class="post-title">
+                        <a href="http://kelbster.github.io/post/squishyButtons/">
+                            Squishy Buttons
+                        </a>
+                    </h1>
+                    
+                    <p><p data-height="268" data-theme-id="23383" data-slug-hash="jbxzbG" data-default-tab="result" data-user="Kelbster" class="codepen">See the Pen <a href="http://codepen.io/Kelbster/pen/jbxzbG/">Squishy Buttons</a> by Kelby Gassman (<a href="http://codepen.io/Kelbster">@Kelbster</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script></p>
+
+                </div>
+              
+                <div class="post">
+                    <h1 class="post-title">
+                        <a href="http://kelbster.github.io/post/shinyTriforce/">
+                            Shiny Triforce
+                        </a>
+                    </h1>
+                    
+                    <p><p data-height="268" data-theme-id="23383" data-slug-hash="WryLZb" data-default-tab="result" data-user="Kelbster" class="codepen">See the Pen <a href="http://codepen.io/Kelbster/pen/WryLZb/">Shiny Triforce</a> by Kelby Gassman (<a href="http://codepen.io/Kelbster">@Kelbster</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script></p>
+
+                </div>
+              
+                <div class="post">
+                    <h1 class="post-title">
+                        <a href="http://kelbster.github.io/post/responsiveTypography/">
+                            Responsive Typography
+                        </a>
+                    </h1>
+                    
+                    <p><p data-height="268" data-theme-id="23383" data-slug-hash="JoOXqM" data-default-tab="result" data-user="Kelbster" class="codepen">See the Pen <a href="http://codepen.io/Kelbster/pen/JoOXqM/">Responsive Typography with Sass</a> by Kelby Gassman (<a href="http://codepen.io/Kelbster">@Kelbster</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script></p>
+
+                </div>
+              
+                <div class="post">
+                    <h1 class="post-title">
+                        <a href="http://kelbster.github.io/post/cssAnimations/">
+                            CSS Animations
+                        </a>
+                    </h1>
+                    
+                    <div class="pen">
+    <p data-height="268" data-theme-id="23383" data-slug-hash="dPNdqM" data-default-tab="result" data-user="Kelbster" class="codepen">See the Pen <a href="http://codepen.io/Kelbster/pen/dPNdqM/">CSS Animation Example 3</a> by Kelby Gassman (<a href="http://codepen.io/Kelbster">@Kelbster</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+    <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+</div>
 
                 </div>
               
 
               
-
-
-
-<nav class="pagination" role="pagination">
-  
-  <i class="fa fa-chevron-left"></i>
-  
-  <span>&nbsp;1 / 3&nbsp;</span>
-  
-  <a href="http://kelbster.github.io/page/2/"><i class="fa fa-chevron-right"></i></a>
-  
-</nav>
 
             </div>
         </div>
