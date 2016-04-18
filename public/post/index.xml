@@ -7,8 +7,43 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2016, Kelby Gassman; all rights reserved.</copyright>
-    <lastBuildDate>Sun, 20 Mar 2016 12:33:27 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 17 Apr 2016 21:07:52 -0400</lastBuildDate>
     <atom:link href="http://kelbster.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Recent Work</title>
+      <link>http://kelbster.github.io/post/recentWork/</link>
+      <pubDate>Sun, 17 Apr 2016 21:07:52 -0400</pubDate>
+      
+      <guid>http://kelbster.github.io/post/recentWork/</guid>
+      <description>&lt;div class=&#34;recent-work&#34;&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;left&#34;&gt;
+            &lt;img src=&#34;http://kelbster.github.io/images/productshop.png&#34; alt=&#34;ProductShop&#34;&gt; 
+        &lt;/div&gt;
+        &lt;div class=&#34;right&#34;&gt;
+            &lt;p&gt;&lt;a href=&#34;https://www.productshop.io/&#34; target=&#34;_blank&#34;&gt;ProductShop&lt;/a&gt; - Developed by Modus Create, I built UIs utilizing the AngularJS 1.x framework and Material Design. This application features scope, planning, and process tools to build software on budget and on time.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;left&#34;&gt;
+            &lt;p&gt;&lt;a href=&#34;http://www.marriott.com/&#34; target=&#34;_blank&#34;&gt;Marriott Labs&lt;/a&gt; - On a small team of developers and designers, I created UIs for innovative social applications for &lt;i&gt;Marriott International, Inc&lt;/i&gt;. This was a mobile first designed web application built with AngularJS.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;right&#34;&gt;
+            &lt;img src=&#34;http://kelbster.github.io/images/marriott.jpg&#34; alt=&#34;Marriott&#34; /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;left&#34;&gt;
+            &lt;img src=&#34;http://kelbster.github.io/images/topbox.jpg&#34; alt=&#34;TopBox&#34;&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;right&#34;&gt;
+            &lt;p&gt;&lt;a href=&#34;https://topbox.io/&#34; target=&#34;_blank&#34;&gt;Topbox&lt;/a&gt; - Provides valuable insight to customer service centers by identifying patterns focused on the root cause. In an ExtJS application, I styled the app&#39;s user interface, components, and theme.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>CSS Variables!</title>
@@ -74,7 +109,7 @@ CSS custom properities, however, allow you to update CSS variables at runtime. O
       
       <guid>http://kelbster.github.io/post/mixingplanets/</guid>
       <description>&lt;p&gt;&lt;a class=&#34;a-no-underline&#34; href=&#34;http://codepen.io/Kelbster/pen/GoYrRJ/&#34; target=&#34;_blank&#34;&gt;
-&lt;img src=&#34;http://kelbster.github.io/images/planets.png&#34; alt=&#34;Planets&#34; /&gt;
+&lt;img src=&#34;http://kelbster.github.io/images/planets.jpg&#34; alt=&#34;Planets&#34; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;This was a fun experiment with Sass mixins and multiple parameters. Mixins are really great for building modular CSS and keeping your code DRY.&lt;/p&gt;

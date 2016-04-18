@@ -4,7 +4,7 @@ title = "Mixing Planets"
 +++
 
 <a class="a-no-underline" href="http://codepen.io/Kelbster/pen/GoYrRJ/" target="_blank">
-![Planets](/images/planets.png)
+![Planets](/images/planets.jpg)
 </a>
 
 This was a fun experiment with Sass mixins and multiple parameters. Mixins are really great for building modular CSS and keeping your code DRY. 

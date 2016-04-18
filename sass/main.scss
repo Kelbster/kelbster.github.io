@@ -3,6 +3,12 @@
  */
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,700);
 @import "font-awesome/scss/font-awesome";
+
+html, body {
+  margin: 0; 
+  padding: 0; 
+}
+
 body {
   background-color: #fff;
   color: #444;
@@ -76,11 +82,3 @@ a {
     display: none;
   }
 }
-
-/*
- * Import all the things!
- */
-@import "layout";
-@import "scale-demo"; 
-@import "sidebar";
-@import "syntax";

@@ -1,9 +1,16 @@
 .sidebar {
-  text-align: center;
-  padding: 2rem;
-  color: rgba(255,255,255,.5);
   background-color: #2B2B2D;
-
+  color: rgba(255,255,255,.5);
+  padding: 2rem;
+  text-align: center;
+  @media (min-width: 48em) {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 10em;
+    text-align: left;
+  }
   a {
     color: #FFF;
   }
@@ -49,7 +56,7 @@
 .social {
   margin: 0.25em 0;
   a {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     padding-right: 0.25em;
     &:hover i {
       transform: scale(1.1);
@@ -58,3 +65,12 @@
   }
 }
 
+/* 
+ * Copyright
+ */
+.copyright {
+  @media (min-width: 48em) {
+    position: fixed;
+    bottom: 0;
+  }
+}
