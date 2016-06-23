@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Kelby Gassman</title>
-    <link>http://kelbster.github.io/post/</link>
+    <link>https://kelbster.github.io/post/</link>
     <description>Recent content in Posts on Kelby Gassman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2016, Kelby Gassman; all rights reserved.</copyright>
     <lastBuildDate>Sun, 17 Apr 2016 21:07:52 -0400</lastBuildDate>
-    <atom:link href="http://kelbster.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kelbster.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Recent Work</title>
-      <link>http://kelbster.github.io/post/recentWork/</link>
+      <link>https://kelbster.github.io/post/recentWork/</link>
       <pubDate>Sun, 17 Apr 2016 21:07:52 -0400</pubDate>
       
-      <guid>http://kelbster.github.io/post/recentWork/</guid>
+      <guid>https://kelbster.github.io/post/recentWork/</guid>
       <description>&lt;div class=&#34;recent-work&#34;&gt;
     &lt;div class=&#34;row&#34;&gt;
         &lt;div class=&#34;left&#34;&gt;
-            &lt;img src=&#34;http://kelbster.github.io/images/productshop.png&#34; alt=&#34;ProductShop&#34;&gt; 
+            &lt;img src=&#34;https://kelbster.github.io/images/productshop.png&#34; alt=&#34;ProductShop&#34;&gt; 
         &lt;/div&gt;
         &lt;div class=&#34;right&#34;&gt;
             &lt;p&gt;&lt;a href=&#34;https://www.productshop.io/&#34; target=&#34;_blank&#34;&gt;ProductShop&lt;/a&gt; - Developed by Modus Create, I built UIs utilizing the AngularJS 1.x framework and Material Design. This application features scope, planning, and process tools to build software on budget and on time.&lt;/p&gt;
@@ -30,12 +30,12 @@
             &lt;p&gt;&lt;a href=&#34;http://www.marriott.com/&#34; target=&#34;_blank&#34;&gt;Marriott Labs&lt;/a&gt; - On a small team of developers and designers, I created UIs for innovative social applications for &lt;i&gt;Marriott International, Inc&lt;/i&gt;. This was a mobile first designed web application built with AngularJS.&lt;/p&gt;
         &lt;/div&gt;
         &lt;div class=&#34;right&#34;&gt;
-            &lt;img src=&#34;http://kelbster.github.io/images/marriott.jpg&#34; alt=&#34;Marriott&#34; /&gt;
+            &lt;img src=&#34;https://kelbster.github.io/images/marriott.jpg&#34; alt=&#34;Marriott&#34; /&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;row&#34;&gt;
         &lt;div class=&#34;left&#34;&gt;
-            &lt;img src=&#34;http://kelbster.github.io/images/topbox.jpg&#34; alt=&#34;TopBox&#34;&gt;
+            &lt;img src=&#34;https://kelbster.github.io/images/topbox.jpg&#34; alt=&#34;TopBox&#34;&gt;
         &lt;/div&gt;
         &lt;div class=&#34;right&#34;&gt;
             &lt;p&gt;&lt;a href=&#34;https://topbox.io/&#34; target=&#34;_blank&#34;&gt;Topbox&lt;/a&gt; - Provides valuable insight to customer service centers by identifying patterns focused on the root cause. In an ExtJS application, I styled the app&#39;s user interface, components, and theme.&lt;/p&gt;
@@ -47,10 +47,10 @@
     
     <item>
       <title>CSS Variables!</title>
-      <link>http://kelbster.github.io/post/cssVars/</link>
+      <link>https://kelbster.github.io/post/cssVars/</link>
       <pubDate>Sun, 20 Mar 2016 12:33:27 -0400</pubDate>
       
-      <guid>http://kelbster.github.io/post/cssVars/</guid>
+      <guid>https://kelbster.github.io/post/cssVars/</guid>
       <description>&lt;p&gt;Or &amp;ldquo;CSS custom properties&amp;rdquo;, are awesome. But CSS preprocessors already have variables! That&amp;rsquo;s true. CSS preprocessors have many features that will keep me using them for a long time, but preprocessor variables are static and require recompiling after any changes.
 CSS custom properities, however, allow you to update CSS variables at runtime. One of many potential use cases is the ability to dynamically theme an application or site.&lt;/p&gt;
 
@@ -86,10 +86,10 @@ CSS custom properities, however, allow you to update CSS variables at runtime. O
     
     <item>
       <title>Vertical Flex</title>
-      <link>http://kelbster.github.io/post/verticalFlex/</link>
+      <link>https://kelbster.github.io/post/verticalFlex/</link>
       <pubDate>Sun, 13 Mar 2016 11:15:37 -0400</pubDate>
       
-      <guid>http://kelbster.github.io/post/verticalFlex/</guid>
+      <guid>https://kelbster.github.io/post/verticalFlex/</guid>
       <description>&lt;p&gt;A client needed a navigation that would adapt to the screen height of multiple devices and orientations for their React Native application. At first, I considered using a grid and element heights of, say, 33%. This works perfectly fine if you know the number of elements and their contents are static.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://codepen.io/Kelbster/pen/YqaYyW&#34; target=&#34;_blank&#34;&gt;Fixed Vertical &amp;ldquo;Flex&amp;rdquo; on &lt;span class=&#34;codepen&#34;&gt;C&lt;i class=&#34;fa fa-codepen&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;DEPEN&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
@@ -104,12 +104,12 @@ CSS custom properities, however, allow you to update CSS variables at runtime. O
     
     <item>
       <title>Mixing Planets</title>
-      <link>http://kelbster.github.io/post/mixingplanets/</link>
+      <link>https://kelbster.github.io/post/mixingplanets/</link>
       <pubDate>Wed, 09 Mar 2016 12:38:18 -0400</pubDate>
       
-      <guid>http://kelbster.github.io/post/mixingplanets/</guid>
+      <guid>https://kelbster.github.io/post/mixingplanets/</guid>
       <description>&lt;p&gt;&lt;a class=&#34;a-no-underline&#34; href=&#34;http://codepen.io/Kelbster/pen/GoYrRJ/&#34; target=&#34;_blank&#34;&gt;
-&lt;img src=&#34;http://kelbster.github.io/images/planets.jpg&#34; alt=&#34;Planets&#34; /&gt;
+&lt;img src=&#34;https://kelbster.github.io/images/planets.jpg&#34; alt=&#34;Planets&#34; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;This was a fun experiment with Sass mixins and multiple parameters. Mixins are really great for building modular CSS and keeping your code DRY.&lt;/p&gt;
@@ -132,10 +132,10 @@ CSS custom properities, however, allow you to update CSS variables at runtime. O
     
     <item>
       <title>Quick Scale</title>
-      <link>http://kelbster.github.io/post/quickScale/</link>
+      <link>https://kelbster.github.io/post/quickScale/</link>
       <pubDate>Wed, 10 Feb 2016 12:23:46 -0400</pubDate>
       
-      <guid>http://kelbster.github.io/post/quickScale/</guid>
+      <guid>https://kelbster.github.io/post/quickScale/</guid>
       <description>&lt;p&gt;Animations can make your application feel more interactive and lifelike.
 Many frameworks have animation libraries built in, or you could use one of the many open source ones, but I think it&amp;rsquo;s important to practice writing your own animations.&lt;/p&gt;
 
