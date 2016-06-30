@@ -19,10 +19,10 @@
       <description>&lt;div class=&#34;recent-work&#34;&gt;
     &lt;div class=&#34;row&#34;&gt;
         &lt;div class=&#34;left&#34;&gt;
-            &lt;img src=&#34;https://kelbster.github.io/images/productshop.png&#34; alt=&#34;ProductShop&#34;&gt; 
+            &lt;img src=&#34;https://kelbster.github.io/images/productshop.png&#34; alt=&#34;ProductShop&#34;&gt;
         &lt;/div&gt;
         &lt;div class=&#34;right&#34;&gt;
-            &lt;p&gt;&lt;a href=&#34;https://www.productshop.io/&#34; target=&#34;_blank&#34;&gt;ProductShop&lt;/a&gt; - Developed by Modus Create, I built UIs utilizing the AngularJS 1.x framework and Material Design. This application features scope, planning, and process tools to build software on budget and on time.&lt;/p&gt;
+            &lt;p&gt;&lt;a href=&#34;http://moduscreate.com/&#34; target=&#34;_blank&#34;&gt;ProductShop&lt;/a&gt; - Developed by Modus Create, I built UIs utilizing the AngularJS 1.x framework and Material Design. This application features scope, planning, and process tools to build software on budget and on time.&lt;/p&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;row&#34;&gt;
@@ -38,7 +38,7 @@
             &lt;img src=&#34;https://kelbster.github.io/images/topbox.jpg&#34; alt=&#34;TopBox&#34;&gt;
         &lt;/div&gt;
         &lt;div class=&#34;right&#34;&gt;
-            &lt;p&gt;&lt;a href=&#34;https://topbox.io/&#34; target=&#34;_blank&#34;&gt;Topbox&lt;/a&gt; - Provides valuable insight to customer service centers by identifying patterns focused on the root cause. In an ExtJS application, I styled the app&#39;s user interface, components, and theme.&lt;/p&gt;
+            &lt;p&gt;&lt;a href=&#34;http://topbox.io/&#34; target=&#34;_blank&#34;&gt;Topbox&lt;/a&gt; - Provides valuable insight to customer service centers by identifying patterns focused on the root cause. In an ExtJS application, I styled the app&#39;s user interface, components, and theme.&lt;/p&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;

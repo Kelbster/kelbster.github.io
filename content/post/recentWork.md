@@ -5,10 +5,10 @@ title = "Recent Work"
 <div class="recent-work">
     <div class="row">
         <div class="left">
-            <img src="/images/productshop.png" alt="ProductShop"> 
+            <img src="/images/productshop.png" alt="ProductShop">
         </div>
         <div class="right">
-            <p><a href="https://www.productshop.io/" target="_blank">ProductShop</a> - Developed by Modus Create, I built UIs utilizing the AngularJS 1.x framework and Material Design. This application features scope, planning, and process tools to build software on budget and on time.</p>
+            <p><a href="http://moduscreate.com/" target="_blank">ProductShop</a> - Developed by Modus Create, I built UIs utilizing the AngularJS 1.x framework and Material Design. This application features scope, planning, and process tools to build software on budget and on time.</p>
         </div>
     </div>
     <div class="row">
@@ -24,7 +24,7 @@ title = "Recent Work"
             <img src="/images/topbox.jpg" alt="TopBox">
         </div>
         <div class="right">
-            <p><a href="https://topbox.io/" target="_blank">Topbox</a> - Provides valuable insight to customer service centers by identifying patterns focused on the root cause. In an ExtJS application, I styled the app's user interface, components, and theme.</p>
+            <p><a href="http://topbox.io/" target="_blank">Topbox</a> - Provides valuable insight to customer service centers by identifying patterns focused on the root cause. In an ExtJS application, I styled the app's user interface, components, and theme.</p>
         </div>
     </div>
 </div>
