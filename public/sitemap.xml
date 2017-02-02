@@ -2,12 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://kelbster.github.io/</loc>
-    <lastmod>2016-04-17T21:07:52-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://kelbster.github.io/post/recentWork/</loc>
     <lastmod>2016-04-17T21:07:52-04:00</lastmod>
   </url>
@@ -35,6 +29,18 @@
   <url>
     <loc>https://kelbster.github.io/post/quickScale/</loc>
     <lastmod>2016-02-10T12:23:46-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kelbster.github.io/</loc>
+    <lastmod>2016-04-17T21:07:52-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kelbster.github.io/post/</loc>
+    <lastmod>2016-04-17T21:07:52-04:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

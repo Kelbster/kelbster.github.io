@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kelby Gassman</title>
-    <link>https://kelbster.github.io/</link>
+    <link>https://kelbster.github.io/index.xml</link>
     <description>Recent content on Kelby Gassman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
