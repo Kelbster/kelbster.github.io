@@ -1,0 +1,36 @@
+@import "client/sass/colors";
+
+.header-component {  
+  .logo {
+    border: 4px solid $primary-500;
+    box-sizing: border-box;
+    padding: 8px;
+    width: 200px;
+    height: auto;
+  }
+
+  .nav {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    li {
+      display: inline-block;
+      margin: 0;
+      padding: 40px 32px;
+      list-style: none;
+
+      a {
+        font-family: 'Raleway', sans-serif;
+        font-size: .875rem;
+        font-weight: 600;
+        letter-spacing: .05933em;
+        color: $primary-500;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
