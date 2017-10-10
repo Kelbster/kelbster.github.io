@@ -1,5 +1,6 @@
+('use strict');
 /*
-    ./webpack.config.js
+ * ./webpack.config.js
 */
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -15,7 +16,7 @@ const ExtractTextPluginConfig = new ExtractTextPlugin({
 });
 
 module.exports = {
-  devtool: 'hidden-source-map',
+  devtool: 'eval',
   entry: './client/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),

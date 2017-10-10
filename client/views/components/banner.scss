@@ -1,0 +1,79 @@
+@import "client/sass/vars";
+
+.banner-component {
+  background: $dark-blue-500;
+  border-bottom: 1px solid rgba(151, 152, 152, .1);
+  padding: 5px 0;
+  width: 100%;
+  text-transform: uppercase;
+
+  .banner-container {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  p {
+    display: inline-block;
+    font-size: .625rem;
+    margin: 0;
+    vertical-align: middle;
+  }
+
+  .typer-wrap {
+    display: inline-block;
+
+    >div {
+      display: inherit;
+    }
+  }
+
+  .typed-cursor {
+    font-size: .875rem;
+    color: $solid-white;
+    opacity: 1;
+    animation: typedjsBlink 0.7s infinite;
+    -webkit-animation: typedjsBlink 0.7s infinite;
+  }
+
+  .typed-fade-out {
+    opacity: 0;
+    animation: 0;
+    -webkit-animation: 0;
+  }
+
+  .link-container {
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin: 0;
+      padding-top: 5px;
+    }
+
+    li {
+      list-style: none;
+      font-size: .625rem;
+    }
+
+    a {
+      color: $solid-white;
+      padding: 0 4px;
+      text-decoration: none;
+
+      &:hover {
+        background: $solid-white;
+        color: $gray-900;
+      }
+    }
+  }
+
+  @keyframes typedjsBlink {
+    50% { opacity: 0.0; }
+  }
+
+  @-webkit-keyframes typedjsBlink {
+    0% { opacity: 1; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1; }
+  }
+}

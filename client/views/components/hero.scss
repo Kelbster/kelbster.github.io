@@ -1,0 +1,128 @@
+@import "client/sass/vars";
+
+.hero-component {
+  height: calc(100vh - 25px);
+  width: 100%;
+
+  h1,
+  h3 {
+    font-family: inherit;
+    letter-spacing: 0;
+    line-height: 1;
+    margin: 0 0 1px 0;
+  }
+
+  p {
+    font-family: inherit;
+    font-size: 1rem;
+    line-height: 1.4;
+    letter-spacing: 0;
+    margin: 0;
+  }
+
+  .blurb-container {
+    color: $dark-blue-500;
+    font-family: $primary-font;
+    text-transform: uppercase;
+    padding: 120px 0;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .blurb {
+    margin: 8px 0;
+  }
+
+  .card {
+    height: 100px;
+    padding: 12px 12px 0;
+  }
+
+  .user-data-blurb {
+    h1 {
+      color: $gray-200;
+      letter-spacing: 0;
+    }
+
+    p {
+      color: $gray-200;
+    }
+  }
+
+  .personal-info-blurb  {
+    h3 {
+      color: $green-500;
+    }
+
+    .card {
+      background: $green-500;
+    }
+  }
+
+  .warning-blurb {
+    h3 {
+      color: $red-500;
+    }
+
+    .card {
+      background: $red-500;
+    }
+  }
+
+  .data-blurb {
+    h3 {
+      color: $yellow-500;
+    }
+
+    .card {
+      background: $yellow-500;
+    }
+  }
+
+  .life-systems-blurb  {
+    h3 {
+      color: $gray-200;
+    }
+
+    .card {
+      background: $gray-200;
+    }
+  }
+
+  .icon-error {
+    display: inline-block;
+    vertical-align: bottom;
+  }
+
+  .icon-arrow-down {
+    display: block;
+    margin: -28px auto;
+    position: relative;
+    bottom: 0;
+    width: 48px;
+    height: auto;
+    transform: translateY(-32px);
+    animation: arrowBlink 1750ms cubic-bezier(0.18, 0.89, 0.32, 1.28) infinite;
+
+    &:nth-child(2) {
+      animation-delay: 250ms;
+    }
+  }
+
+  .blink {
+    animation: blink 1000ms steps(2, start) infinite;
+  }
+
+  @keyframes blink {
+    to {
+      visibility: hidden;
+    }
+  }
+
+  @keyframes arrowBlink {
+    to {
+      opacity: 0;
+    }
+  }
+}

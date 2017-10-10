@@ -5,7 +5,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Inconsolata', monospace;
+  font-family: $primary-font;
   font-size: 16px;
   letter-spacing: .0133em;
   line-height: 1.667;
@@ -16,9 +16,8 @@ ul, ol {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Inconsolata', monospace;
-  font-weight: 700;
-  color: $gray-900;
+  font-family: $primary-font;
+  font-weight: 400;
 }
 
 h1 {
@@ -33,7 +32,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.375rem;
 }
 
 h4 {
@@ -49,17 +48,20 @@ h6 {
 }
 
 p {
-  font-family: 'Inconsolata', monospace;
-  letter-spacing: .0133em;
-  line-height: 1.667;
+  font-family: $secondary-font;
+  letter-spacing: .0833em;
+  line-height: 1.875;
+  font-size: .825rem;
+  font-weight: 300;
 }
 
 .pre {
+  color: $gray-900;
   font-family: monospace;
   font-size: 1rem;
   background: $gray-200;
   display: inline-block;
-  padding: 2px 4px;
+  padding: 2px 8px;
 }
 
 .divider {
@@ -96,10 +98,8 @@ p {
   &:hover { text-decoration: none; }
 
   &-primary {
-    background: $primary-500;
 
     &:hover {
-      background: $primary-600;
     }
   }
 }

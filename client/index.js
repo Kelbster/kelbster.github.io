@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Routes from './controllers/routes';
+import App from './views/app';
 require('normalize.css');
 require('./sass/base.scss');
 
-ReactDOM.render(Routes, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));

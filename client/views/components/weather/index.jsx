@@ -2,14 +2,13 @@
 // icons are from: http://www.danvierich.de/weather/
 
 import React from 'react';
-import BaseComponent from '../component';
 import Axios from 'axios';
 require('./index.scss');
 
 const APIKEY = 'a0703d61a8b0827b';
 const iconPath = './client/views/components/weather/img/';
 
-export default class Weather extends BaseComponent {
+export default class Weather extends React.Component {
   constructor(props) {
     super(props);
 
@@ -19,6 +18,10 @@ export default class Weather extends BaseComponent {
       longitude: null,
       isCelsius: false
     };
+
+    this.getLocation = this.getLocation.bind(this);
+    this.fetchData = this.fetchData.bind(this);
+    this.setWeatherState = this.setWeatherState.bind(this);
   }
 
   componentDidMount() {
@@ -30,7 +33,6 @@ export default class Weather extends BaseComponent {
 
   getLocation() {
     // using https://ipinfo.io/ to get current location vs native geolocation
-    console.log('Getting location data...');
     return Axios.get('https://ipinfo.io')
       .then((response) => {
         let position = response.data.loc.split(',');
@@ -39,7 +41,6 @@ export default class Weather extends BaseComponent {
   }
 
   fetchData(position) {
-    console.log('Getting current weather data...');
     const lat = position[0];
     const lon = position[1];
     return Axios.get(`http://api.wunderground.com/api/${ APIKEY }/conditions/q/${ lat },${ lon }.json`)
@@ -49,8 +50,6 @@ export default class Weather extends BaseComponent {
   }
 
   setWeatherState(weather) {
-    console.log('The current weather is: ');
-    console.log(weather);
     this.setState({
       isLoading: false,
       fahrenheight: weather.temp_f,
@@ -276,7 +275,7 @@ export default class Weather extends BaseComponent {
                 </div>
                 <div>
                   <p className="wind">What's the wind like? { this.state.windString }{ this.getWindDirection() }</p>
-                  <button onClick={ this.toggleTemp }>Switch to { !this.state.isCelsius ? 'Celsius' : 'Fahrenheight' }</button>
+                  <button onClick={ () => this.toggleTemp() }>Switch to { !this.state.isCelsius ? 'Celsius' : 'Fahrenheight' }</button>
                 </div>
               </div>
           }

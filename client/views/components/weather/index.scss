@@ -11,9 +11,10 @@
   background: #35343b;
 
   h1 {
+    color: rgba(255, 255, 255, 0.4);
+    font-family: inherit;
     letter-spacing: .05337em;
     margin: 12px 0 10px;
-    opacity: 0.25;
     font-size: 4.25rem;
   }
 
@@ -22,8 +23,8 @@
   }
 
   button {
-    border: 1px solid rgba(255, 165, 0, 0.85);
-    box-shadow: 0 1px 5px rgba(255, 165, 0, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.85);
+    box-shadow: 0 1px 8px rgba(255, 255, 255, 0.45);
     background: transparent;
     color: white;
     cursor: pointer;
@@ -40,12 +41,12 @@
   }
 
   button:hover {
-    border: 1px solid rgba(255, 165, 0, 1);
-    box-shadow: 0 1px 5px rgba(255, 165, 0, 0.75);
+    border: 1px solid rgba(255, 255, 255, 1);
+    box-shadow: 0 1px 12px rgba(255, 255, 255, 0.85);
   }
 
   button:active {
-    box-shadow: 0 3px 3px rgba(255, 165, 0, 0.15);
+    box-shadow: 0 1px 8px rgba(255, 255, 255, 0.36);
     transform: translateY(3px);
   }
 

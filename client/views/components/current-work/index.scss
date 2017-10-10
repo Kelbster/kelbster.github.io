@@ -1,0 +1,26 @@
+@import "client/sass/vars";
+
+.current-work-component {
+  background: $dark-blue-600;
+  padding-top: 60px;
+
+  .ifit-section-container {
+    padding: 60px 0 90px;
+  }
+
+  .weather-component {
+    display: block;
+    position: relative;
+  }
+
+  a {
+    color: inherit;
+    font-size: inherit;
+    text-decoration: none;
+  }
+
+  .ifit-nourish-logo, .ifit-logo {
+    height: 40px;
+    width: auto;
+  }
+}
