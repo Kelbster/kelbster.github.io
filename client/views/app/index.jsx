@@ -3,6 +3,7 @@ import { Grid, Row, Col } from 'react-flexbox-grid';
 import Banner from '../components/banner';
 import Hero from '../components/hero';
 import CurrentWork from '../components/current-work';
+import Weather from '../components/weather';
 import Farm from '../components/farm';
 require('./index.scss');
 
@@ -37,6 +38,7 @@ export default class App extends React.Component {
               </Col>
             </Row>
           </Grid>
+          <Weather />
           <Farm />
         </div>
       </div>

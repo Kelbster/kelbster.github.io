@@ -2,25 +2,69 @@
 
 .current-work-component {
   background: $dark-blue-600;
-  padding-top: 60px;
+  color: $gray-200;
+  font-family: $primary-font;
+  text-transform: uppercase;
+  padding-top: 80px;
+  text-transform: uppercase;
 
-  .ifit-section-container {
-    padding: 60px 0 90px;
+  .work-section-container {
+    padding: 90px 0 110px;
   }
 
-  .weather-component {
-    display: block;
-    position: relative;
+  h1,
+  h3 {
+    font-family: inherit;
+    letter-spacing: 0;
+    line-height: 1;
+    margin: 0 0 1px 0;
+  }
+
+  p {
+    font-family: inherit;
+    font-size: 1rem;
+    line-height: 1.4;
+    letter-spacing: 0;
+    margin: 0;
   }
 
   a {
     color: inherit;
+    display: block;
     font-size: inherit;
     text-decoration: none;
   }
 
-  .ifit-nourish-logo, .ifit-logo {
-    height: 40px;
-    width: auto;
+  .blurb {
+    max-width: 400px;
+    width: 100%;
+  }
+
+  .card {
+    color: $dark-blue-500;
+    height: 100px;
+    padding: 12px 12px 0;
+  }
+
+  .work-info-blurb  {
+    margin-bottom: 16px;
+
+    &:hover {
+      h3 {
+        background: $gray-200;
+        color: $dark-blue-500;
+      }
+    }
+
+    h3 {
+      color: $gray-200;
+      display: inline-block;
+      letter-spacing: 0;
+      padding: 0 4px 0 2px;
+    }
+
+    .card {
+      background: $gray-200;
+    }
   }
 }

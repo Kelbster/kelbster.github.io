@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import moment from 'moment';
-import iconArrowDown from './img/icon-arrow-down.svg';
+import DoubleArrow from './double-arrow';
 import iconError from './img/icon-error.svg';
 require('./hero.scss');
 
@@ -88,6 +88,20 @@ export default class Hero extends React.Component {
                     <p>Coffee consumed: { this.getCoffeeOz() } oz</p>
                   </div>
                 </div>
+              </Col>
+              <Col sm={ 5 }>
+                <div className="blurb warning-blurb">
+                  <h3>Warning</h3>
+                  <div className="card">
+                    <p>Signal intercepted <img className="icon-error" src={ iconError } alt="error" /></p>
+                    <p>No action required</p>
+                    <p>Attempting patch<span className="blink">|</span></p>
+                  </div>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col sm={ 7 }>
                 <div className="blurb life-systems-blurb">
                   <h3>Life support</h3>
                   <div className="card">
@@ -99,14 +113,6 @@ export default class Hero extends React.Component {
                 </div>
               </Col>
               <Col sm={ 5 }>
-                <div className="blurb warning-blurb">
-                  <h3>Warning</h3>
-                  <div className="card">
-                    <p>Signal intercepted <img className="icon-error" src={ iconError } alt="error" /></p>
-                    <p>No action required</p>
-                    <p>Attempting patch<span className="blink">|</span></p>
-                  </div>
-                </div>
                 <div className="blurb data-blurb">
                   <h3>Connection</h3>
                   <div className="card">
@@ -120,10 +126,7 @@ export default class Hero extends React.Component {
             </Row>
           </div>
         </Grid>
-        <div>
-          <img className="icon-arrow-down" src={ iconArrowDown } alt="arrow" />
-          <img className="icon-arrow-down" src={ iconArrowDown } alt="arrow" />
-        </div>
+        <DoubleArrow />
       </div>
     );
   }

@@ -31,7 +31,7 @@
   }
 
   .blurb {
-    margin: 8px 0;
+    margin: 6px 0;
   }
 
   .card {
@@ -40,6 +40,8 @@
   }
 
   .user-data-blurb {
+    margin-bottom: 0;
+    
     h1 {
       color: $gray-200;
       letter-spacing: 0;
@@ -95,21 +97,6 @@
     vertical-align: bottom;
   }
 
-  .icon-arrow-down {
-    display: block;
-    margin: -28px auto;
-    position: relative;
-    bottom: 0;
-    width: 48px;
-    height: auto;
-    transform: translateY(-32px);
-    animation: arrowBlink 1750ms cubic-bezier(0.18, 0.89, 0.32, 1.28) infinite;
-
-    &:nth-child(2) {
-      animation-delay: 250ms;
-    }
-  }
-
   .blink {
     animation: blink 1000ms steps(2, start) infinite;
   }
@@ -117,12 +104,6 @@
   @keyframes blink {
     to {
       visibility: hidden;
-    }
-  }
-
-  @keyframes arrowBlink {
-    to {
-      opacity: 0;
     }
   }
 }
