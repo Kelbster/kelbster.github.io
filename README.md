@@ -7,6 +7,7 @@ This has been rebuilt from scratch with React and Webpack and published via [Net
 #### Upgrade plans:
 
 - Integrate with [GatsbyJS](https://www.gatsbyjs.org/)
+- Add Autoprefixer/PostCSS
 - Add more items to this list
 
 ### Dev
