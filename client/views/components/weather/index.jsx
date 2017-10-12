@@ -43,7 +43,7 @@ export default class Weather extends React.Component {
   fetchData(position) {
     const lat = position[0];
     const lon = position[1];
-    return Axios.get(`http://api.wunderground.com/api/${ APIKEY }/conditions/q/${ lat },${ lon }.json`)
+    return Axios.get(`https://api.wunderground.com/api/${ APIKEY }/conditions/q/${ lat },${ lon }.json`)
       .then((response) => {
         return response.data.current_observation;
       });
