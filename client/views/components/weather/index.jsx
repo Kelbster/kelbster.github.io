@@ -4,6 +4,7 @@
 import React from 'react';
 import Axios from 'axios';
 require('./index.scss');
+require.context('./img', false, /\.test\.svg$/);
 
 const APIKEY = 'a0703d61a8b0827b';
 const iconPath = './client/views/components/weather/img/';
