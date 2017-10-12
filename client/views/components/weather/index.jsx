@@ -274,7 +274,7 @@ export default class Weather extends React.Component {
                   </div>
                 </div>
                 <div>
-                  <p className="wind">What's the wind like? { this.state.windString }{ this.getWindDirection() }</p>
+                  <p className="wind">What's the wind like? <br className="hide-on-desktop" />{ this.state.windString }{ this.getWindDirection() }</p>
                   <button onClick={ () => this.toggleTemp() }>Switch to { !this.state.isCelsius ? 'Celsius' : 'Fahrenheight' }</button>
                 </div>
               </div>

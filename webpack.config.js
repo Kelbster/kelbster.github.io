@@ -16,7 +16,7 @@ const ExtractTextPluginConfig = new ExtractTextPlugin({
 });
 
 module.exports = {
-  devtool: 'eval',
+  devtool: 'cheap-module-source-map',
   entry: './client/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),

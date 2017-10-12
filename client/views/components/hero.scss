@@ -1,7 +1,6 @@
 @import "client/sass/vars";
 
 .hero-component {
-  height: calc(100vh - 25px);
   width: 100%;
 
   h1,
@@ -12,12 +11,22 @@
     margin: 0 0 1px 0;
   }
 
+  h1 {
+    @include mobile {
+      font-size: 2rem;
+    }
+  }
+
   p {
     font-family: inherit;
     font-size: 1rem;
     line-height: 1.4;
     letter-spacing: 0;
     margin: 0;
+
+    @include mobile {
+      font-size: .825rem;
+    }
   }
 
   .blurb-container {
@@ -28,6 +37,10 @@
     width: 100%;
     max-width: 700px;
     margin: 0 auto;
+
+    @include mobile {
+      padding: 90px 0 120px;
+    }
   }
 
   .blurb {
@@ -35,13 +48,15 @@
   }
 
   .card {
-    height: 100px;
-    padding: 12px 12px 0;
+    box-sizing: border-box;
+    height: 110px;
+    max-width: 365px;
+    padding: 12px;
   }
 
   .user-data-blurb {
     margin-bottom: 0;
-    
+
     h1 {
       color: $gray-200;
       letter-spacing: 0;
@@ -95,6 +110,10 @@
   .icon-error {
     display: inline-block;
     vertical-align: bottom;
+  }
+
+  .double-arrow-component {
+    transform: translateY(-20px);
   }
 
   .blink {

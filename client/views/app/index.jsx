@@ -5,6 +5,7 @@ import Hero from '../components/hero';
 import CurrentWork from '../components/current-work';
 import Weather from '../components/weather';
 import Farm from '../components/farm';
+require('normalize.css');
 require('./index.scss');
 
 export default class App extends React.Component {
@@ -18,29 +19,27 @@ export default class App extends React.Component {
         <Banner />
         <Hero />
         <CurrentWork />
-        <div className="section tools">
-          <Grid>
-            <Row>
-              <Col sm={ 12 }>
-                <h1>Some of my favorite tools:</h1>
-                <p><span className="pre">/// HACK:</span></p>
-              </Col>
-            </Row>
-          </Grid>
+        {/* <Broadcast /> */}
+        <div className="work-in-progress-component">
+          <div className="work-in-progress-container">
+            <Grid fluid>
+              <Row>
+                <Col xs={ 10 } xsOffset={ 1 } sm={ 12 } smOffset={ 0 }>
+                  <div className="copy">
+                    <h1>Work in progress</h1>
+                    <p>A sneak peek of some of the things I'm currently working on</p>
+                    <div className="warning">
+                      <h3>WARNING</h3>
+                      <p>Incomplete projects or features ahead</p>
+                    </div>
+                  </div>
+                </Col>
+              </Row>
+            </Grid>
+          </div>
         </div>
-        <div className="section work-in-progress">
-          <Grid>
-            <Row>
-              <Col sm={ 12 }>
-                <h1>Work in progress</h1>
-                <p>A sneak peek of some of the things I'm currently working on</p>
-                <p style={{ color: '#ff5353' }}>WARNING: Incomplete projects or features ahead.</p>
-              </Col>
-            </Row>
-          </Grid>
-          <Weather />
-          <Farm />
-        </div>
+        <Weather />
+        <Farm />
       </div>
     );
   }

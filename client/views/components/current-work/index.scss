@@ -8,6 +8,12 @@
   padding-top: 80px;
   text-transform: uppercase;
 
+  .current-work-container {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
   .work-section-container {
     padding: 90px 0 110px;
   }
@@ -20,12 +26,22 @@
     margin: 0 0 1px 0;
   }
 
+  h1 {
+    @include mobile {
+      font-size: 2rem;
+    }
+  }
+
   p {
     font-family: inherit;
     font-size: 1rem;
     line-height: 1.4;
     letter-spacing: 0;
     margin: 0;
+
+    @include mobile {
+      font-size: .825rem;
+    }
   }
 
   a {
@@ -41,9 +57,11 @@
   }
 
   .card {
+    box-sizing: border-box;
     color: $dark-blue-500;
+    max-width: 365px;
     height: 100px;
-    padding: 12px 12px 0;
+    padding: 12px;
   }
 
   .work-info-blurb  {

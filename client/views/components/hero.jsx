@@ -68,17 +68,23 @@ export default class Hero extends React.Component {
   render() {
     return (
       <div className="hero-component">
-        <Grid>
-          <div className="blurb-container">
-            <div className="blurb user-data-blurb">
-              <h1>Subject: Kelby Gassman</h1>
-              <p>Current time: { moment(this.state.currentTime).format("HH:mm:ss") }</p>
-              <p>Species: Homo sapiens sapiens</p>
-              <p>Station clearance: pending</p>
-              <p>Threat level: trusted</p>
-            </div>
+        <div className="blurb-container">
+          <div className="blurb user-data-blurb">
+            <Grid fluid>
+              <Row>
+                <Col xs={ 10 } xsOffset={ 1 } sm={ 12 } smOffset={ 0 }>
+                  <h1>Subject: <br className="hide-on-desktop" />Kelby Gassman</h1>
+                  <p>Current time: { moment(this.state.currentTime).format("HH:mm:ss") }</p>
+                  <p>Species: Homo sapiens sapiens</p>
+                  <p>Station clearance: pending</p>
+                  <p>Threat level: trusted</p>
+                </Col>
+              </Row>
+            </Grid>
+          </div>
+          <Grid fluid>
             <Row>
-              <Col sm={ 7 }>
+              <Col xs={ 10 } xsOffset={ 1 } sm={ 7 } smOffset={ 0 }>
                 <div className="blurb personal-info-blurb">
                   <h3>Front End Developer</h3>
                   <div className="card">
@@ -89,7 +95,7 @@ export default class Hero extends React.Component {
                   </div>
                 </div>
               </Col>
-              <Col sm={ 5 }>
+              <Col xs={ 10 } xsOffset={ 1 } sm={ 5 } smOffset={ 0 }>
                 <div className="blurb warning-blurb">
                   <h3>Warning</h3>
                   <div className="card">
@@ -101,7 +107,7 @@ export default class Hero extends React.Component {
               </Col>
             </Row>
             <Row>
-              <Col sm={ 7 }>
+              <Col xs={ 10 } xsOffset={ 1 } sm={ 7 } smOffset={ 0 }>
                 <div className="blurb life-systems-blurb">
                   <h3>Life support</h3>
                   <div className="card">
@@ -112,7 +118,7 @@ export default class Hero extends React.Component {
                   </div>
                 </div>
               </Col>
-              <Col sm={ 5 }>
+              <Col xs={ 10 } xsOffset={ 1 } sm={ 5 } smOffset={ 0 }>
                 <div className="blurb data-blurb">
                   <h3>Connection</h3>
                   <div className="card">
@@ -124,8 +130,8 @@ export default class Hero extends React.Component {
                 </div>
               </Col>
             </Row>
-          </div>
-        </Grid>
+          </Grid>
+        </div>
         <DoubleArrow />
       </div>
     );

@@ -8,8 +8,13 @@
   text-transform: uppercase;
 
   .banner-container {
-    max-width: 700px;
+    box-sizing: border-box;
     margin: 0 auto;
+    max-width: 700px;
+
+    @include mobile {
+      padding-left: 30px;
+    }
   }
 
   p {
@@ -17,6 +22,11 @@
     font-size: .625rem;
     margin: 0;
     vertical-align: middle;
+
+    @include mobile {
+      padding-left: 11px;
+      margin: 6px 0;
+    }
   }
 
   .typer-wrap {
@@ -48,6 +58,10 @@
       justify-content: space-around;
       margin: 0;
       padding-top: 5px;
+
+      @include mobile {
+        width: 272px;
+      }
     }
 
     li {

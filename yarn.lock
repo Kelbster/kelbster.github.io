@@ -2977,9 +2977,9 @@ normalize-url@^1.4.0:
     query-string "^4.1.0"
     sort-keys "^1.0.0"
 
-normalize.css@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/normalize.css/-/normalize.css-6.0.0.tgz#22188c2707c911fb3ad3c1aac0677ff68661bea8"
+normalize.css@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/normalize.css/-/normalize.css-7.0.0.tgz#abfb1dd82470674e0322b53ceb1aaf412938e4bf"
 
 "npmlog@0 || 1 || 2 || 3 || 4", npmlog@^4.0.0, npmlog@^4.0.2:
   version "4.1.2"
@@ -4232,15 +4232,6 @@ tar@^2.0.0, tar@^2.2.1:
     block-stream "*"
     fstream "^1.0.2"
     inherits "2"
-
-the-weather@^1.0.1:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/the-weather/-/the-weather-1.0.2.tgz#1424f8f3b42af64bba484cc571b0f4ced369c6da"
-  dependencies:
-    axios "^0.16.2"
-    path "^0.12.7"
-    webpack "^2.2.1"
-    webpack-dev-server "^2.4.1"
 
 through@~2.3.4, through@~2.3.8:
   version "2.3.8"
