@@ -5,7 +5,7 @@ import DoubleArrow from './double-arrow';
 import iconError from './img/icon-error.svg';
 require('./hero.scss');
 
-const startDate = '2012-01-09T09:00:00-04:00';
+const startDate = '2011-05-23T09:00:00-04:00';
 
 export default class Hero extends React.Component {
   constructor(props) {
