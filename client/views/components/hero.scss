@@ -1,7 +1,12 @@
 @import "client/sass/vars";
 
 .hero-component {
+  height: 700px;
   width: 100%;
+
+  @include mobile {
+    height: auto;
+  }
 
   h1,
   h3 {
