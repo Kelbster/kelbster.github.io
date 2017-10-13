@@ -2,11 +2,16 @@
 
 .current-work-component {
   background: $dark-blue-600;
+  height: 700px;
+  width: 100%;
   color: $gray-200;
   font-family: $primary-font;
   text-transform: uppercase;
   padding-top: 80px;
-  text-transform: uppercase;
+
+  @include mobile {
+    height: auto;
+  }
 
   .current-work-container {
     width: 100%;
