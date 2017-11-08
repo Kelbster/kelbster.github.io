@@ -19,7 +19,6 @@ export default class App extends React.Component {
         <Banner />
         <Hero />
         <CurrentWork />
-        {/* <Broadcast /> */}
         <div className="work-in-progress-component">
           <div className="work-in-progress-container">
             <Grid fluid>

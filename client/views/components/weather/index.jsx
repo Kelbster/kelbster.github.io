@@ -14,7 +14,6 @@ importAll(require.context('./img/', true, /\.svg$/));
 const APIKEY = 'a0703d61a8b0827b';
 const iconPath = './client/views/components/weather/img/';
 
-
 export default class Weather extends React.Component {
   constructor(props) {
     super(props);
