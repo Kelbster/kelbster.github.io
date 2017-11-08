@@ -19,9 +19,8 @@ export default class App extends React.Component {
         <Banner />
         <Hero />
         <CurrentWork />
-        {/* <Broadcast /> */}
         <div className="work-in-progress-component">
-          <div className="work-in-progress-container">
+          <div className="container work-in-progress-container">
             <Grid fluid>
               <Row>
                 <Col xs={ 10 } xsOffset={ 1 } sm={ 12 } smOffset={ 0 }>
@@ -38,7 +37,25 @@ export default class App extends React.Component {
             </Grid>
           </div>
         </div>
+        <div className="container description-container">
+          <Grid fluid>
+            <Row>
+              <Col xs={ 10 } xsOffset={ 1 } sm={ 12 } smOffset={ 0 }>
+                <p><span className="description">Description:</span> The world could always use another <a href="https://github.com/Kelbster/the-weather" target="_blank">weather app...</a> This one features unique backgrounds, icons, and wind direction based on your current, local weather.</p>
+              </Col>
+            </Row>
+          </Grid>
+        </div>
         <Weather />
+        <div className="container description-container">
+          <Grid fluid>
+            <Row>
+              <Col xs={ 10 } xsOffset={ 1 } sm={ 12 } smOffset={ 0 }>
+                <p><span className="description">Description:</span> This is the start of a <a href="https://github.com/Kelbster/turnip-for-what" target="_blank">farming game</a> I'm building in React.</p>
+              </Col>
+            </Row>
+          </Grid>
+        </div>
         <Farm />
       </div>
     );

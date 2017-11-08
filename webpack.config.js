@@ -35,7 +35,7 @@ module.exports = {
       },
       {
         test: /\.(sass|scss)$/,
-        use: ExtractTextPlugin.extract(['css-loader', 'sass-loader'])
+        use: ExtractTextPlugin.extract(['css-loader', 'postcss-loader', 'sass-loader'])
       },
       {
         test: /\.(jpg|png|svg)$/,
