@@ -20,7 +20,7 @@ export default class Farm extends React.Component {
     return (
       <div className="farm-component">
         <div className="farm-container">
-          <h1>Ye Ol' Farmer</h1>
+          <h1>Ye Ol' Farm</h1>
           <p>Select your seeds:&nbsp;
             <button
               className={ this.state.plantSelected === 'Turnip' ? 'active' : null }
