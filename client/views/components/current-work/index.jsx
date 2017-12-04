@@ -5,7 +5,7 @@ require('./index.scss');
 
 const CurrentWork = () => (
   <div className="section current-work-component">
-    <div className="current-work-container">
+    <div className="container current-work-container">
       <Grid fluid>
         <Row>
           <Col xs={ 10 } xsOffset={ 1 } sm={ 12 } smOffset={ 0 }>

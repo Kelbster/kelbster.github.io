@@ -1,5 +1,6 @@
 @import './colors';
 @import './fonts';
+@import './grid';
 @import './utils';
 
 body {
@@ -53,4 +54,9 @@ p {
   line-height: 1.875;
   font-size: .825rem;
   font-weight: 300;
+}
+
+.container {
+  width: 100%;
+  max-width: $container-width;
 }

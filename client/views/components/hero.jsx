@@ -114,7 +114,7 @@ export default class Hero extends React.Component {
                     <p>Condition: stable</p>
                     <p>O2 Levels: 98%</p>
                     <p>Pressure: { this.state.pressure } kPa</p>
-                    <p>H20 Reclamation: 1.25 GPM</p>
+                    <p>H20 Reclamation: 0.15 GPM</p>
                   </div>
                 </div>
               </Col>

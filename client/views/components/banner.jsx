@@ -21,7 +21,7 @@ export default class Banner extends React.Component {
   render() {
     return (
       <div className="banner-component">
-        <div className="banner-container">
+        <div className="container banner-container">
           <Grid fluid>
             <Row>
               <Col xs={ 12 } sm={ 6 }>
