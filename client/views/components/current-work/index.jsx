@@ -1,66 +1,52 @@
 import React from 'react';
-import { Grid, Row, Col } from 'react-flexbox-grid';
 import DoubleArrow from '../double-arrow';
-require('./index.scss');
+import { Container } from '../../../styles/layout';
+import Card, { PCard } from '../../components/card';
+import {
+  CurrentWorkStyled,
+  H1Work,
+  ContainerWorkGrid,
+  Blurb,
+  H3Blurb,
+  PBlurb
+} from './index-styles';
 
 const CurrentWork = () => (
-  <div className="section current-work-component">
-    <div className="container current-work-container">
-      <Grid fluid>
-        <Row>
-          <Col xs={ 10 } xsOffset={ 1 } sm={ 12 } smOffset={ 0 }>
-            <h1>Current Work</h1>
-          </Col>
-        </Row>
-      </Grid>
-      <Grid fluid>
-        <Row>
-          <Col xs={ 12 }>
-            <div className="work-section-container">
-              <Row>
-                <Col xs={ 10 } xsOffset={ 1 } sm={ 6 } smOffset={ 0 }>
-                  <a className="blurb work-info-blurb" href="https://www.ifit.com/" target="_blank">
-                    <h3>iFit</h3>
-                    <p>URL: https://www.ifit.com/</p>
-                    <p>International fitness application</p>
-                    <div className="card">
-                      <p>Role: Sr Front End Developer</p>
-                      <p>Platform: React, Redux</p>
-                    </div>
-                  </a>
-                </Col>
-                  <Col xs={ 10 } xsOffset={ 1 } sm={ 6 } smOffset={ 0 }>
-                  <a className="blurb work-info-blurb" href="https://www.ifitnourish.com/" target="_blank">
-                    <h3>iFit Nourish</h3>
-                    <p>URL: https://www.ifitnourish.com/</p>
-                    <p>Custom built nutrition</p>
-                    <div className="card">
-                      <p>Role: Sr Front End Developer</p>
-                      <p>Platform: Shopify</p>
-                    </div>
-                  </a>
-                </Col>
-              </Row>
-              <Row>
-                <Col xs={ 10 } xsOffset={ 1 } sm={ 6 } smOffset={ 0 }>
-                  <a className="blurb work-info-blurb" href="https://www.lgfit.co/" target="_blank">
-                    <h3>LGFIT</h3>
-                    <p>URL: https://www.lgfit.co/</p>
-                    <p>Remote Health and Fitness Coaching</p>
-                    <div className="card">
-                      <p>Role: Sole Developer</p>
-                      <p>Platform: React, Webpack, Netlify</p>
-                    </div>
-                  </a>
-                </Col>
-              </Row>
-            </div>
-          </Col>
-        </Row>
-      </Grid>
-    </div>
+  <CurrentWorkStyled>
+    <Container>
+      <H1Work>Current Work</H1Work>
+    </Container>
+    <ContainerWorkGrid>
+      <Blurb href="https://www.ifit.com/" target="_blank">
+        <H3Blurb>iFit</H3Blurb>
+        <PBlurb>URL: https://www.ifit.com/</PBlurb>
+        <PBlurb>International fitness application</PBlurb>
+        <Card height="100px" maxWidth="360px">
+          <PCard>Role: Sr Front End Developer</PCard>
+          <PCard>Platform: React, Redux</PCard>
+        </Card>
+      </Blurb>
+      <Blurb href="https://www.ifitnourish.com/" target="_blank">
+        <H3Blurb>iFit Nourish</H3Blurb>
+        <PBlurb>URL: https://www.ifitnourish.com/</PBlurb>
+        <PBlurb>Custom built nutrition</PBlurb>
+        <Card height="100px" maxWidth="360px">
+          <PCard>Role: Sr Front End Developer</PCard>
+          <PCard>Platform: Shopify</PCard>
+        </Card>
+      </Blurb>
+      <Blurb href="https://www.lgfit.co/" target="_blank">
+        <H3Blurb>LGFIT</H3Blurb>
+        <PBlurb>URL: https://www.lgfit.co/</PBlurb>
+        <PBlurb>Remote Health and Fitness Coaching</PBlurb>
+        <Card height="100px" maxWidth="360px">
+          <PCard>Role: Sole Developer</PCard>
+          <PCard>Platform: React, Webpack, Netlify</PCard>
+        </Card>
+      </Blurb>
+    </ContainerWorkGrid>
     <DoubleArrow />
-  </div>
+  </CurrentWorkStyled>
 );
 
 export default CurrentWork;

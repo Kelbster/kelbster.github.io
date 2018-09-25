@@ -15,7 +15,8 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
-  -moz-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: "Work Sans", Arial, Helvetica, sans-serif;
 }

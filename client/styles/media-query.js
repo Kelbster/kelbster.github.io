@@ -6,23 +6,16 @@ const mediaSizes = {
   mobile: 767
 };
 
-export const mediaQuery = {
-  desktop = () => css`
-    @media (min-width: ${ mediaSizes.desktop / 16 }em) {
-      ${ css(args) };
-    }
-  `,
-  tablet = () => css`
-    @media (max-width: ${ mediaSizes.tablet / 16 }em) {
-      ${ css(args) };
-    }
-  `,
-  mobile = () => css`
-    @media (max-width: ${ mediaSizes.mobile / 16 }em) {
-      ${ css(args) };
+const mediaQuery = Object.keys(mediaSizes).reduce((acc, label) => {
+  acc[label] = (...args) => css`
+    @media (max-width: ${mediaSizes[label] / 16}em) {
+      ${css(...args)}
     }
   `
-};
+  return acc
+}, {});
+
+export default mediaQuery;
 
 /* Now we have our methods on media and can use them instead of raw queries
 *const example = styled.div`
@@ -32,7 +25,7 @@ export const mediaQuery = {
 *    background: mediumseagreen;
 *  `}
 *
-*  ${ mediaQuery.phone`
+*  ${ mediaQuery.mobile`
 *     background: palevioletred;
 *   `}
 *`;

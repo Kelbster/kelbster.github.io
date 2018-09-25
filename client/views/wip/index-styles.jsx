@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { Container } from '../../styles/layout';
-import { fontSpace, H3, P } from '../../styles/typography';
+import { fontSpace, fontWork, H3, P } from '../../styles/typography';
 import { darkBlue500, red500, gray200 } from '../../styles/colors';
 
 export const WipStyled = styled.div`
@@ -35,6 +35,10 @@ export const Description = styled.span`
   font-family: ${ fontSpace };
   text-transform: uppercase;
   padding: 0 6px;
+`;
+
+export const PDescription = P.extend`
+  font-family: ${ fontWork };
 `;
 
 export const H3Warning = H3.extend`
