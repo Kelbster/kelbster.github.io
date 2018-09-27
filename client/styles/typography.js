@@ -6,12 +6,18 @@ export const fontSpace = 'Space Mono, Helvetica, Arial, sans-serif';
 
 export const H1 = styled.h1`
   font-size: 4.6rem;
-  line-height: 1;
+  line-height: 1.25;
   letter-spacing: 0;
 
   ${ mediaQuery.mobile`
     font-size: 3.2rem;
   `}
+`;
+
+export const H2 = styled.h2`
+  font-size: 2.76rem;
+  line-height: 1;
+  text-transform: uppercase;
 `;
 
 export const H3 = styled.h3`

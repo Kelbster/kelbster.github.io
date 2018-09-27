@@ -9,7 +9,8 @@ export const WipStyled = styled.div`
 `;
 
 export const WipDescription = Container.extend`
-  padding: 100px 0 20px;
+  padding-top: 130px;
+  padding-bottom: 20px;
   text-transform: none;
 
   a {
@@ -25,8 +26,10 @@ export const WipDescription = Container.extend`
 `;
 
 export const PWip = P.extend`
+  font-family: ${ fontWork };
+  font-size: 1.3rem;
   line-height: 1.4;
-  letter-spacing: 0;
+  margin: 1.6em 0;
 `;
 
 export const Description = styled.span`

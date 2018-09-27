@@ -1,7 +1,7 @@
 import React from 'react';
-import DoubleArrow from '../double-arrow';
-import { Container } from '../../../styles/layout';
-import Card, { PCard } from '../../components/card';
+import DoubleArrow from '../components/double-arrow';
+import { Container } from '../../styles/layout';
+import Card, { PCard } from '../components/card';
 import {
   CurrentWorkStyled,
   H1Work,

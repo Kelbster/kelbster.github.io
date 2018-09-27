@@ -1,8 +1,8 @@
 import styled from 'styled-components';
-import { fontSpace, H1, H3, P } from '../../../styles/typography';
-import { gray200, darkBlue600, darkBlue500 } from '../../../styles/colors';
-import { Container } from '../../../styles/layout';
-import mediaQuery from '../../../styles/media-query';
+import { fontSpace, H1, H3, P } from '../../styles/typography';
+import { gray200, darkBlue600, darkBlue500 } from '../../styles/colors';
+import { Container } from '../../styles/layout';
+import mediaQuery from '../../styles/media-query';
 
 export const CurrentWorkStyled = styled.div`
   background: ${ darkBlue600 };
