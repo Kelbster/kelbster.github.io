@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { gray200, darkBlue500 } from '../../styles/colors';
 import { P } from '../../styles/typography';
+import mediaQuery from '../../styles/media-query';
 
 const CardStyled = styled.div`
   background: ${props => props.backgroundColor || gray200 };
@@ -13,9 +14,13 @@ const CardStyled = styled.div`
   max-width: ${props => props.maxWidth || 'none' };
 `;
 
-export const PCard = P.extend`
+export const PCard = styled(P)`
   font-size: 1.6rem;
   line-height: 1.4;
+
+  ${ mediaQuery.mobile`
+    font-size: 1.32rem;
+  `}
 `;
 
 const Card = props => (

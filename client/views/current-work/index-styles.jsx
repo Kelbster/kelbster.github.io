@@ -12,7 +12,7 @@ export const CurrentWorkStyled = styled.div`
   padding-top: 80px;
 `;
 
-export const ContainerWorkGrid = Container.extend`
+export const ContainerWorkGrid = styled(Container)`
   display: grid;
   grid-template-columns: 50% 50%;
   grid-column-gap: 16px;
@@ -23,7 +23,7 @@ export const ContainerWorkGrid = Container.extend`
   `}
 `;
 
-export const H1Work = H1.extend`
+export const H1Work = styled(H1)`
   margin: 0;
 `;
 
@@ -33,7 +33,7 @@ export const Blurb = styled.div`
   margin-bottom: 16px;
 `;
 
-export const H3Blurb = H3.extend`
+export const H3Blurb = styled(H3)`
   color: ${ gray200 };
   display: inline-block;
   margin: 0;
@@ -45,7 +45,11 @@ export const H3Blurb = H3.extend`
   }
 `;
 
-export const PBlurb = P.extend`
+export const PBlurb = styled(P)`
   font-size: 1.6rem;
   line-height: 1.4;
+
+  ${ mediaQuery.mobile`
+    font-size: 1.32rem;
+  `}
 `;

@@ -8,7 +8,7 @@ export const WipStyled = styled.div`
   padding: 100px 0 0;
 `;
 
-export const WipDescription = Container.extend`
+export const WipDescription = styled(Container)`
   padding-top: 130px;
   padding-bottom: 20px;
   text-transform: none;
@@ -25,9 +25,9 @@ export const WipDescription = Container.extend`
   }
 `;
 
-export const PWip = P.extend`
+export const PWip = styled(P)`
   font-family: ${ fontWork };
-  font-size: 1.3rem;
+  font-size: 1.32rem;
   line-height: 1.4;
   margin: 1.6em 0;
 `;
@@ -40,11 +40,11 @@ export const Description = styled.span`
   padding: 0 6px;
 `;
 
-export const PDescription = P.extend`
+export const PDescription = styled(P)`
   font-family: ${ fontWork };
 `;
 
-export const H3Warning = H3.extend`
+export const H3Warning = styled(H3)`
   color: ${ red500 };
   letter-spacing: 0;
   margin: 0;
