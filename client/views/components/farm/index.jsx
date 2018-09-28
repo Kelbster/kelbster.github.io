@@ -1,6 +1,5 @@
 import React from 'react';
 import GardenBed from './garden-bed';
-import Plot from './plot';
 require('./index.scss');
 
 export default class Farm extends React.Component {
