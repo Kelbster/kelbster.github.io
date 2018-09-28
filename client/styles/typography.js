@@ -33,3 +33,11 @@ export const P = styled.p`
   line-height: 1.875;
   margin: 0;
 `;
+
+export const Break = styled.br`
+  display: ${ props => props.desktopDisplay || "block" };
+
+  ${ mediaQuery.mobile`
+    display: ${ props => props.mobileDisplay || "block" };
+  `}
+`;

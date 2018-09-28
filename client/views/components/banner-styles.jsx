@@ -7,7 +7,7 @@ import mediaQuery from '../../styles/media-query';
 export const BannerStyled = styled.div`
   background: ${ darkBlue500 };
   border-bottom: 1px solid rgba(151, 152, 152, .1);
-  padding: 5px 0;
+  padding: 5px 0 10px;
   width: 100%;
   text-transform: uppercase;
 
@@ -16,7 +16,6 @@ export const BannerStyled = styled.div`
     font-family: ${ fontWork };
     font-size: 1rem;
     letter-spacing: .0833em;
-    vertical-align: middle;
 
     > div {
       display: inherit;
@@ -53,7 +52,6 @@ export const PBanner = styled(P)`
   font-family: ${ fontWork };
   font-size: 1rem;
   letter-spacing: .0833em;
-  vertical-align: middle;
 
   ${ mediaQuery.mobile`
     padding-left: 11px;
@@ -84,7 +82,7 @@ export const LinkContainer = styled.div`
     flex-direction: row;
     justify-content: space-around;
     margin: 0;
-    padding-top: 5px;
+    padding: 0;
   }
 `;
 

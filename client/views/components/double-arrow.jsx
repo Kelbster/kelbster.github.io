@@ -3,7 +3,7 @@ import iconArrowDown from './img/icon-arrow-down.svg';
 import styled from 'styled-components';
 
 const DoubleArrowStyled = styled.div`
-  transform: ${props => props.transform || 'none' };
+  transform: ${ props => props.transform || 'none' };
 `;
 
 const Arrow = styled.img`
@@ -27,8 +27,8 @@ const Arrow = styled.img`
   }
 `;
 
-const DoubleArrow = () => (
-  <DoubleArrowStyled>
+const DoubleArrow = props => (
+  <DoubleArrowStyled transform={ props.transform }>
     <Arrow src={ iconArrowDown } alt="arrow" />
     <Arrow src={ iconArrowDown } alt="arrow" />
   </DoubleArrowStyled>

@@ -6,7 +6,7 @@ import { P } from '../../styles/typography';
 import mediaQuery from '../../styles/media-query';
 
 const CardStyled = styled.div`
-  background: ${props => props.backgroundColor || gray200 };
+  background: ${props => props.background || gray200 };
   color: ${props => props.color || darkBlue500 };
   padding: ${props => props.padding || '12px'};
   height: ${props => props.height || 'auto'};
@@ -17,6 +17,7 @@ const CardStyled = styled.div`
 export const PCard = styled(P)`
   font-size: 1.6rem;
   line-height: 1.4;
+  text-transform: uppercase;
 
   ${ mediaQuery.mobile`
     font-size: 1.32rem;

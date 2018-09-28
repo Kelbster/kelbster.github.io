@@ -1,9 +1,21 @@
 import React from 'react';
-import { Grid, Row, Col } from 'react-flexbox-grid';
 import moment from 'moment';
+import Card, { PCard } from './card';
 import DoubleArrow from './double-arrow';
 import iconError from './img/icon-error.svg';
-require('./hero.scss');
+import { gray200, green500, red500, yellow500 } from '../../styles/colors';
+import { Break } from '../../styles/typography';
+import {
+  HeroStyled,
+  HeroContainer,
+  Title,
+  PHero,
+  HeroGrid,
+  Blurb,
+  H3Card,
+  IconError,
+  Blink
+} from './hero-styles';
 
 const startDate = '2011-05-23T09:00:00-04:00';
 
@@ -67,73 +79,55 @@ export default class Hero extends React.Component {
 
   render() {
     return (
-      <div className="hero-component">
-        <div className="blurb-container">
-          <div className="blurb user-data-blurb">
-            <Grid fluid>
-              <Row>
-                <Col xs={ 10 } xsOffset={ 1 } sm={ 12 } smOffset={ 0 }>
-                  <h1>Subject: <br className="hide-on-desktop" />Kelby Gassman</h1>
-                  <p>Current time: { moment(this.state.currentTime).format("HH:mm:ss") }</p>
-                  <p>Species: Homo sapiens sapiens</p>
-                  <p>Station clearance: pending</p>
-                  <p>Threat level: trusted</p>
-                </Col>
-              </Row>
-            </Grid>
+      <HeroStyled>
+        <HeroContainer>
+          <div>
+            <Title>Subject: <Break desktopDisplay="none" />Kelby Gassman</Title>
+            <PHero>Current time: { moment(this.state.currentTime).format("HH:mm:ss") }</PHero>
+            <PHero>Species: Homo sapiens sapiens</PHero>
+            <PHero>Station clearance: pending</PHero>
+            <PHero>Threat level: trusted</PHero>
           </div>
-          <Grid fluid>
-            <Row>
-              <Col xs={ 10 } xsOffset={ 1 } sm={ 7 } smOffset={ 0 }>
-                <div className="blurb personal-info-blurb">
-                  <h3>Front End Developer</h3>
-                  <div className="card">
-                    <p>Years experience: { this.getExperience() }</p>
-                    <p>Residence: Virginia</p>
-                    <p>Status: Remote</p>
-                    <p>Coffee consumed: { this.getCoffeeOz() } oz</p>
-                  </div>
-                </div>
-              </Col>
-              <Col xs={ 10 } xsOffset={ 1 } sm={ 5 } smOffset={ 0 }>
-                <div className="blurb warning-blurb">
-                  <h3>Warning</h3>
-                  <div className="card">
-                    <p>Signal intercepted <img className="icon-error" src={ iconError } alt="error" /></p>
-                    <p>No action required</p>
-                    <p>Attempting patch<span className="blink">|</span></p>
-                  </div>
-                </div>
-              </Col>
-            </Row>
-            <Row>
-              <Col xs={ 10 } xsOffset={ 1 } sm={ 7 } smOffset={ 0 }>
-                <div className="blurb life-systems-blurb">
-                  <h3>Life support</h3>
-                  <div className="card">
-                    <p>Condition: stable</p>
-                    <p>O2 Levels: 98%</p>
-                    <p>Pressure: { this.state.pressure } kPa</p>
-                    <p>H20 Reclamation: 0.15 GPM</p>
-                  </div>
-                </div>
-              </Col>
-              <Col xs={ 10 } xsOffset={ 1 } sm={ 5 } smOffset={ 0 }>
-                <div className="blurb data-blurb">
-                  <h3>Connection</h3>
-                  <div className="card">
-                    <p>Memory: 16 GB</p>
-                    <p>Bandwidth: { this.state.bandwidth } MB</p>
-                    <p>Latency: { this.state.latency } ms</p>
-                    <p>Host: 9.35.153.190</p>
-                  </div>
-                </div>
-              </Col>
-            </Row>
-          </Grid>
-        </div>
-        <DoubleArrow />
-      </div>
+          <HeroGrid>
+            <Blurb>
+              <H3Card color={ green500 }>Front End Developer</H3Card>
+              <Card background={ green500 } height="110px" maxWidth="365px">
+                <PCard>Years experience: { this.getExperience() }</PCard>
+                <PCard>Residence: Virginia</PCard>
+                <PCard>Status: Remote</PCard>
+                <PCard>Coffee consumed: { this.getCoffeeOz() } oz</PCard>
+              </Card>
+            </Blurb>
+            <Blurb>
+              <H3Card color={ red500 }>Warning</H3Card>
+              <Card background={ red500 } height="110px" maxWidth="365px">
+                <PCard>Signal intercepted <IconError src={ iconError } alt="error" /></PCard>
+                <PCard>No action required</PCard>
+                <PCard>Attempting patch<Blink>|</Blink></PCard>
+              </Card>
+            </Blurb>
+            <Blurb>
+              <H3Card>Life support</H3Card>
+              <Card background={ gray200 } height="110px" maxWidth="365px">
+                <PCard>Condition: stable</PCard>
+                <PCard>O2 Levels: 98%</PCard>
+                <PCard>Pressure: { this.state.pressure } kPa</PCard>
+                <PCard>H20 Reclamation: 0.15 GPM</PCard>
+              </Card>
+            </Blurb>
+            <Blurb>
+              <H3Card color={ yellow500 }>Connection</H3Card>
+              <Card background={ yellow500 } height="110px" maxWidth="365px">
+                <PCard>Memory: 16 GB</PCard>
+                <PCard>Bandwidth: { this.state.bandwidth } MB</PCard>
+                <PCard>Latency: { this.state.latency } ms</PCard>
+                <PCard>Host: 9.35.153.190</PCard>
+              </Card>
+            </Blurb>
+          </HeroGrid>
+        </HeroContainer>
+        <DoubleArrow transform="translateY(100px)" />
+      </HeroStyled>
     );
   }
 }
