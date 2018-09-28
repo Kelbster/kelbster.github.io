@@ -41,7 +41,7 @@ export default class Banner extends React.Component {
               <Col xs={ 12 } sm={ 6 }>
                 <div className="link-container">
                   <ul>
-                    <li><a href="https://www.linkedin.com/in/kelby-gassman-449aa130/" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://www.linkedin.com/in/kelby-gassman/" target="_blank">LinkedIn</a></li>
                     <li><a href="https://www.twitter.com/kelbygassman" target="_blank">Twitter</a></li>
                     <li><a href="https://codepen.io/Kelbster/" target="_blank">Codepen</a></li>
                     <li><a href="https://github.com/kelbster" target="_blank">Github</a></li>
