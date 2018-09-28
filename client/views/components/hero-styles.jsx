@@ -6,16 +6,16 @@ import mediaQuery from '../../styles/media-query';
 
 export const HeroStyled = styled.div`
   height: 700px;
-  padding: 120px 0 0;
 
   ${ mediaQuery.mobile`
     height: auto;
-    padding: 90px 0 120px;
+    padding-bottom: 120px;
   `}
 `;
 
 export const HeroContainer = styled(Container)`
   min-height: 560px;
+  padding-top: 90px;
 `;
 
 export const Title = styled(H1)`

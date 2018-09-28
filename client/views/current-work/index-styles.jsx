@@ -27,10 +27,12 @@ export const H1Work = styled(H1)`
   margin: 0;
 `;
 
-export const Blurb = styled.div`
+export const Blurb = styled.a`
+  color: inherit;
   cursor: pointer;
   font-family: ${ fontSpace };
   margin-bottom: 16px;
+  text-decoration: none;
 `;
 
 export const H3Blurb = styled(H3)`
