@@ -9,7 +9,8 @@ This has been rebuilt from scratch with React and Webpack and published via [Net
 #### Upgrade plans:
 
 - Integrate with [GatsbyJS](https://www.gatsbyjs.org/)
-- Switch to CSS vars / CSSNext?
+- ~~Update with `styled-components`~~ :white_check_mark:
+- ~~Switch to CSS vars / CSSNext?~~
 - ~~Add Autoprefixer/PostCSS~~ &nbsp; :white_check_mark:
 - Add more items to this list
 
