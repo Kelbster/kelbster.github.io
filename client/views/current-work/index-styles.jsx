@@ -20,6 +20,7 @@ export const ContainerWorkGrid = styled(Container)`
 
   ${ mediaQuery.mobile`
     display: block;
+    margin: 60px auto 110px;
   `}
 `;
 
@@ -28,11 +29,17 @@ export const H1Work = styled(H1)`
 `;
 
 export const Blurb = styled.a`
+  display: block;
   color: inherit;
   cursor: pointer;
   font-family: ${ fontSpace };
   margin-bottom: 16px;
   text-decoration: none;
+
+
+  ${ mediaQuery.mobile`
+    margin: 16px 0 0;
+  `}
 `;
 
 export const H3Blurb = styled(H3)`
