@@ -46,7 +46,7 @@ export default class Banner extends React.Component {
           <LinkContainer>
             <ul>
               <LinkItem>
-                <Link href="https://www.linkedin.com/in/kelby-gassman-449aa130/" target="_blank">LinkedIn</Link>
+                <Link href="https://www.linkedin.com/in/kelby-gassman/" target="_blank">LinkedIn</Link>
               </LinkItem>
               <LinkItem>
                 <Link href="https://www.twitter.com/kelbygassman" target="_blank">Twitter</Link>
