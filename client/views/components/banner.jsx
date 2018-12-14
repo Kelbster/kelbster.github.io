@@ -46,19 +46,19 @@ export default class Banner extends React.Component {
           <LinkContainer>
             <ul>
               <LinkItem>
-                <Link href="https://www.linkedin.com/in/kelby-gassman/" target="_blank">LinkedIn</Link>
+                <Link href="https://www.linkedin.com/in/kelby-gassman/" rel="noopener noreferrer" target="_blank">LinkedIn</Link>
               </LinkItem>
               <LinkItem>
-                <Link href="https://www.twitter.com/kelbygassman" target="_blank">Twitter</Link>
+                <Link href="https://www.twitter.com/Kelbster" rel="noopener noreferrer" target="_blank">Twitter</Link>
               </LinkItem>
               <LinkItem>
-                <Link href="https://codepen.io/Kelbster/" target="_blank">Codepen</Link>
+                <Link href="https://codepen.io/Kelbster/" rel="noopener noreferrer" target="_blank">Codepen</Link>
               </LinkItem>
               <LinkItem>
-                <Link href="https://www.behance.net/kelbygassme22b" target="_blank">Pixel Art</Link>
+                <Link href="https://www.behance.net/kelbygassme22b" rel="noopener noreferrer" target="_blank">Pixel Art</Link>
               </LinkItem>
               <LinkItem>
-                <Link href="https://github.com/kelbster" target="_blank">Github</Link>
+                <Link href="https://github.com/kelbster" rel="noopener noreferrer" target="_blank">Github</Link>
               </LinkItem>
             </ul>
           </LinkContainer>
