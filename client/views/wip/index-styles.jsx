@@ -60,3 +60,13 @@ export const PWarning = styled.p`
   margin: 0;
   padding: 0 6px;
 `;
+
+export const IframeStyled = styled.iframe`
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  height: 664px;
+  width: 1024px;
+  max-width: 90%;
+  margin: 2rem auto 0;
+  display: block;
+  border: none;
+`;

@@ -10,7 +10,8 @@ import {
   H3Warning,
   PWarning,
   PDescription,
-  Description
+  Description,
+  IframeStyled
 } from './index-styles';
 
 const Wip = () => (
@@ -21,6 +22,21 @@ const Wip = () => (
       <H3Warning>WARNING</H3Warning>
       <PWarning>Incomplete projects or features ahead</PWarning>
     </Container>
+    <WipDescription>
+      <H2>Theme Toggle</H2>
+      <PDescription><Description>Description:</Description> Using React Context API, toggle between light and dark themes.</PDescription>
+    </WipDescription>
+    <IframeStyled src="https://codesandbox.io/embed/k9zq4vzy7?view=preview" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></IframeStyled>
+    <WipDescription>
+      <H2>Pokemon Team Builder</H2>
+      <PDescription><Description>Description:</Description> Build a team from the original 151 Pokemon! Built with React.</PDescription>
+    </WipDescription>
+    <IframeStyled src="https://codesandbox.io/embed/pmworpz147?view=preview" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></IframeStyled>
+    <WipDescription>
+      <H2>Recursion</H2>
+      <PDescription><Description>Description:</Description> Practicing some different applications for recursion in JS.</PDescription>
+    </WipDescription>
+    <IframeStyled src="https://codesandbox.io/embed/jl2p1yl9n9?expanddevtools=1&hidenavigation=1" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></IframeStyled>
     <WipDescription>
       <H2>Current Weather</H2>
       <PDescription><Description>Description:</Description> The world could always use another <a href="https://github.com/Kelbster/the-weather" target="_blank">weather app...</a> This one features unique backgrounds, icons, and wind direction based on your current, local weather.</PDescription>

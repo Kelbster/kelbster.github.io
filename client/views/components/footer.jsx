@@ -1,48 +1,23 @@
 import React from 'react';
-import Typer from '../components/typer';
 import {
-  BannerStyled,
-  BannerContainer,
-  PBanner,
-  NewsFeedContainer,
   LinkContainer,
   LinkItem,
   Link
 } from './banner-styles';
+import {
+  FooterStyled,
+  FooterContainer
+} from './footer-styles';
 
-const typerStringArr = [
-  `<PBanner>Mercy on call</PBanner>`,
-  `<PBanner>Let&rsquo;s play D&amp;D</PBanner>`,
-  `<PBanner>Half-Life 3 confirmed</PBanner>`,
-  `<PBanner>Dank memes</PBanner>`,
-  `<PBanner>Reach has fallen</PBanner>`,
-  `<PBanner>"Oh jeez, Rick" - Morty</PBanner>`,
-  `<PBanner>Flavortown</PBanner>`
-];
-
-export default class Banner extends React.Component {
+export default class Footer extends React.Component {
   constructor(props) {
     super(props);
   }
 
   render() {
     return (
-      <BannerStyled>
-        <BannerContainer>
-          <NewsFeedContainer>
-            <PBanner>News Feed:&nbsp;</PBanner>
-            <Typer
-              className="banner-typer"
-              strings={ typerStringArr }
-              typeSpeed={ 65 }
-              backSpeed={ 35 }
-              startDelay={ 0 }
-              backDelay={ 2000 }
-              loop={ true }
-              shuffle={ true }
-              smartBackspace={ false }
-            />
-          </NewsFeedContainer>
+      <FooterStyled>
+        <FooterContainer>
           <LinkContainer>
             <ul>
               <LinkItem>
@@ -62,8 +37,8 @@ export default class Banner extends React.Component {
               </LinkItem>
             </ul>
           </LinkContainer>
-        </BannerContainer>
-      </BannerStyled>
+        </FooterContainer>
+      </FooterStyled>
     )
   }
 };

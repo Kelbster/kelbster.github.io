@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { fontWork, H1, H3, P } from '../../styles/typography';
+import { fontWork, P } from '../../styles/typography';
 import { solidWhite, gray900, darkBlue500 } from '../../styles/colors';
 import { Container } from '../../styles/layout';
 import mediaQuery from '../../styles/media-query';
