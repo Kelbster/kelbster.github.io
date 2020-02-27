@@ -1,4 +1,3 @@
-
 .no-margin {
   margin: 0;
 }
@@ -8,19 +7,19 @@
 }
 
 .hide-on-desktop {
-  @media(min-width: 1024px) {
+  @media (min-width: 1024px) {
     display: none;
   }
 }
 
 .hide-on-tablet {
-  @media(min-width: 768px) {
+  @media (min-width: 768px) {
     display: none;
   }
 }
 
 .hide-on-mobile {
-  @media(max-width: 767px) {
+  @media (max-width: 767px) {
     display: none;
   }
 }

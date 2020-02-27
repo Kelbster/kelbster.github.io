@@ -8,15 +8,21 @@ body {
   padding: 0;
   font-family: $primary-font;
   font-size: 16px;
-  letter-spacing: .0133em;
+  letter-spacing: 0.0133em;
   line-height: 1.667;
 }
 
-ul, ol {
+ul,
+ol {
   -webkit-padding-start: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: $primary-font;
   font-weight: 400;
 }
@@ -50,9 +56,9 @@ h6 {
 
 p {
   font-family: $secondary-font;
-  letter-spacing: .0833em;
+  letter-spacing: 0.0833em;
   line-height: 1.875;
-  font-size: .825rem;
+  font-size: 0.825rem;
   font-weight: 300;
 }
 

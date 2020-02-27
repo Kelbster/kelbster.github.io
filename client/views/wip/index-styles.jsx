@@ -1,7 +1,7 @@
-import styled from "styled-components";
-import { Container } from "../../styles/layout";
-import { fontSpace, fontWork, H3, P } from "../../styles/typography";
-import { darkBlue500, red500, gray200 } from "../../styles/colors";
+import styled from 'styled-components';
+import { Container } from '../../styles/layout';
+import { fontSpace, fontWork, H3, P } from '../../styles/typography';
+import { darkBlue500, red500, gray200 } from '../../styles/colors';
 
 export const WipStyled = styled.div`
   text-transform: uppercase;
@@ -33,7 +33,6 @@ export const PWip = styled(P)`
 `;
 
 export const Description = styled.span`
-  display: block;
   background: ${gray200};
   color: ${darkBlue500};
   font-family: ${fontSpace};
@@ -44,6 +43,7 @@ export const Description = styled.span`
 
 export const PDescription = styled(P)`
   font-family: ${fontWork};
+  max-width: 54rem;
 `;
 
 export const H3Warning = styled(H3)`

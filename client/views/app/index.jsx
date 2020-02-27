@@ -2,7 +2,7 @@ import React from 'react';
 import { AppStyled } from './index-styles';
 import Banner from '../components/banner';
 import Hero from '../components/hero';
-import CurrentWork from '../current-work';
+import RecentWork from '../recent-work';
 import Wip from '../wip';
 import Footer from '../components/footer';
 
@@ -16,10 +16,10 @@ export default class App extends React.Component {
       <AppStyled>
         <Banner />
         <Hero />
-        <CurrentWork />
+        <RecentWork />
         <Wip />
         <Footer />
       </AppStyled>
     );
   }
-};
+}
