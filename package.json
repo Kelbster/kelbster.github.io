@@ -15,7 +15,6 @@
     "last 2 versions"
   ],
   "dependencies": {
-    "axios": "^0.16.2",
     "classnames": "^2.2.5",
     "moment": "^2.18.1",
     "path": "^0.12.7",
