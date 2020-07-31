@@ -9,7 +9,7 @@ import {
   PWarning,
   PDescription,
   Description,
-  IframeStyled
+  IframeStyled,
 } from './index-styles';
 
 const Wip = () => (
@@ -20,6 +20,18 @@ const Wip = () => (
       <H3Warning>WARNING</H3Warning>
       <PWarning>Possible incomplete projects or features ahead</PWarning>
     </Container>
+    {/* Pokemon team builder */}
+    <WipDescription>
+      <H2>Pokemon Team Builder</H2>
+      <PDescription>
+        <Description>Description:</Description> Build a team from the original
+        151 Pokemon! Built with React.
+      </PDescription>
+    </WipDescription>
+    <IframeStyled
+      src="https://codesandbox.io/embed/pmworpz147?view=preview"
+      sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
+    />
     {/* Intro to Motion */}
     <WipDescription>
       <H2>Intro to Framer Motion</H2>
@@ -29,8 +41,8 @@ const Wip = () => (
       </PDescription>
     </WipDescription>
     <IframeStyled
-      src='https://codesandbox.io/embed/intro-to-motion-design-2gkye?fontsize=14&hidenavigation=1&theme=dark'
-      sandbox='allow-modals allow-forms allow-popups allow-scripts allow-same-origin'
+      src="https://codesandbox.io/embed/intro-to-motion-design-2gkye?fontsize=14&hidenavigation=1&theme=dark"
+      sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
     />
     {/* Drag and Drop */}
     <WipDescription>
@@ -41,20 +53,8 @@ const Wip = () => (
       </PDescription>
     </WipDescription>
     <IframeStyled
-      src='https://codesandbox.io/embed/drag-n-drop-poc-qyjwq?fontsize=14&hidenavigation=1&theme=dark'
-      sandbox='allow-modals allow-forms allow-popups allow-scripts allow-same-origin'
-    />
-    {/* Chat History */}
-    <WipDescription>
-      <H2>Chat History</H2>
-      <PDescription>
-        <Description>Description:</Description> Did you know you can still build
-        pages and views with static HTML, CSS, and JS?
-      </PDescription>
-    </WipDescription>
-    <IframeStyled
-      src='https://codesandbox.io/embed/pj60063vwx?fontsize=14&hidenavigation=1&theme=dark'
-      sandbox='allow-modals allow-forms allow-popups allow-scripts allow-same-origin'
+      src="https://codesandbox.io/embed/drag-n-drop-poc-qyjwq?fontsize=14&hidenavigation=1&theme=dark"
+      sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
     />
     {/* Theme toggler */}
     <WipDescription>
@@ -65,21 +65,18 @@ const Wip = () => (
       </PDescription>
     </WipDescription>
     <IframeStyled
-      src='https://codesandbox.io/embed/k9zq4vzy7?view=preview'
-      sandbox='allow-modals allow-forms allow-popups allow-scripts allow-same-origin'
+      src="https://codesandbox.io/embed/k9zq4vzy7?view=preview"
+      sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
     />
-    {/* Pokemon team builder */}
+    {/* SVG Gradients */}
     <WipDescription>
-      <H2>Pokemon Team Builder</H2>
+      <H2>SVG Gradients</H2>
       <PDescription>
-        <Description>Description:</Description> Build a team from the original
-        151 Pokemon! Built with React.
+        <Description>Description:</Description> Using svg mask and css variables
+        to control gradients.
       </PDescription>
     </WipDescription>
-    <IframeStyled
-      src='https://codesandbox.io/embed/pmworpz147?view=preview'
-      sandbox='allow-modals allow-forms allow-popups allow-scripts allow-same-origin'
-    />
+    <IframeStyled src="https://codepen.io/Kelbster/embed/JrQypK?height=265&theme-id=dark&default-tab=css,result" />
     {/* Recursion */}
     <WipDescription>
       <H2>Recursion</H2>
@@ -89,8 +86,8 @@ const Wip = () => (
       </PDescription>
     </WipDescription>
     <IframeStyled
-      src='https://codesandbox.io/embed/jl2p1yl9n9?expanddevtools=1&hidenavigation=1'
-      sandbox='allow-modals allow-forms allow-popups allow-scripts allow-same-origin'
+      src="https://codesandbox.io/embed/jl2p1yl9n9?expanddevtools=1&hidenavigation=1"
+      sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
     />
     {/* Higher order functions */}
     <WipDescription>
@@ -101,8 +98,8 @@ const Wip = () => (
       </PDescription>
     </WipDescription>
     <IframeStyled
-      src='https://codesandbox.io/embed/k24qn1kny5?expanddevtools=1&fontsize=14&hidenavigation=1&theme=dark'
-      sandbox='allow-modals allow-forms allow-popups allow-scripts allow-same-origin'
+      src="https://codesandbox.io/embed/k24qn1kny5?expanddevtools=1&fontsize=14&hidenavigation=1&theme=dark"
+      sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
     />
   </WipStyled>
 );
