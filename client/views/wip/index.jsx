@@ -20,6 +20,15 @@ const Wip = () => (
       <H3Warning>WARNING</H3Warning>
       <PWarning>Possible incomplete projects or features ahead</PWarning>
     </Container>
+    {/* Planeswalkers */}
+    <WipDescription>
+      <H2>Planeswalker Selection</H2>
+      <PDescription>
+        <Description>Description:</Description> Some Game UI ideas. Built with
+        vanilla html, css, and js.
+      </PDescription>
+    </WipDescription>
+    <IframeStyled src="https://codepen.io/Kelbster/full/ZEQdWMZ" />
     {/* Pokemon team builder */}
     <WipDescription>
       <H2>Pokemon Team Builder</H2>
@@ -76,7 +85,7 @@ const Wip = () => (
         to control gradients.
       </PDescription>
     </WipDescription>
-    <IframeStyled src="https://codepen.io/Kelbster/embed/JrQypK?height=265&theme-id=dark&default-tab=css,result" />
+    <IframeStyled src="https://codepen.io/Kelbster/full/JrQypK" />
     {/* Recursion */}
     <WipDescription>
       <H2>Recursion</H2>
