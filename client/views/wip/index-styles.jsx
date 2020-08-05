@@ -1,7 +1,13 @@
 import styled from 'styled-components';
 import { Container } from '../../styles/layout';
 import { fontSpace, fontWork, H3, P } from '../../styles/typography';
-import { darkBlue500, red500, gray200 } from '../../styles/colors';
+import {
+  darkBlue500,
+  red500,
+  gray200,
+  gray900,
+  solidWhite,
+} from '../../styles/colors';
 
 export const WipStyled = styled.div`
   text-transform: uppercase;
@@ -71,4 +77,15 @@ export const IframeStyled = styled.iframe`
   margin: 2rem auto 0;
   display: block;
   border: none;
+`;
+
+export const Link = styled.a`
+  color: ${solidWhite};
+  padding: 0 4px;
+  text-decoration: none;
+
+  &:hover {
+    background: ${solidWhite};
+    color: ${gray900};
+  }
 `;

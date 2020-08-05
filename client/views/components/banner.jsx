@@ -7,7 +7,7 @@ import {
   NewsFeedContainer,
   LinkContainer,
   LinkItem,
-  Link
+  Link,
 } from './banner-styles';
 
 const typerStringArr = [
@@ -17,7 +17,7 @@ const typerStringArr = [
   `<PBanner>Dank memes</PBanner>`,
   `<PBanner>Reach has fallen</PBanner>`,
   `<PBanner>"Oh jeez, Rick" - Morty</PBanner>`,
-  `<PBanner>Flavortown</PBanner>`
+  `<PBanner>Next stop: Flavortown</PBanner>`,
 ];
 
 export default class Banner extends React.Component {
@@ -32,7 +32,7 @@ export default class Banner extends React.Component {
           <NewsFeedContainer>
             <PBanner>News Feed:&nbsp;</PBanner>
             <Typer
-              className='banner-typer'
+              className="banner-typer"
               strings={typerStringArr}
               typeSpeed={65}
               backSpeed={35}
@@ -47,36 +47,36 @@ export default class Banner extends React.Component {
             <ul>
               <LinkItem>
                 <Link
-                  href='https://www.linkedin.com/in/kelby-gassman/'
-                  rel='noopener noreferrer'
-                  target='_blank'
+                  href="https://www.linkedin.com/in/kelby-gassman/"
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
                   LinkedIn
                 </Link>
               </LinkItem>
               <LinkItem>
                 <Link
-                  href='https://codesandbox.io/u/Kelbster'
-                  rel='noopener noreferrer'
-                  target='_blank'
+                  href="https://codesandbox.io/u/Kelbster"
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
                   CodeSandbox
                 </Link>
               </LinkItem>
               <LinkItem>
                 <Link
-                  href='https://codepen.io/Kelbster/'
-                  rel='noopener noreferrer'
-                  target='_blank'
+                  href="https://codepen.io/Kelbster/"
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
                   Codepen
                 </Link>
               </LinkItem>
               <LinkItem>
                 <Link
-                  href='https://github.com/kelbster'
-                  rel='noopener noreferrer'
-                  target='_blank'
+                  href="https://github.com/kelbster"
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
                   Github
                 </Link>

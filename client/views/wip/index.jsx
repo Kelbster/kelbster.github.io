@@ -10,6 +10,7 @@ import {
   PDescription,
   Description,
   IframeStyled,
+  Link,
 } from './index-styles';
 
 const Wip = () => (
@@ -29,6 +30,7 @@ const Wip = () => (
       </PDescription>
     </WipDescription>
     <IframeStyled
+      title="Planeswalker Selection"
       src="https://codesandbox.io/embed/stupefied-dew-pi43d?fontsize=14&hidenavigation=1&theme=dark&view=preview"
       sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
     />
@@ -41,81 +43,26 @@ const Wip = () => (
       </PDescription>
     </WipDescription>
     <IframeStyled
+      title="Pokemon Team Builder"
       src="https://codesandbox.io/embed/pmworpz147?view=preview"
       sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
     />
-    {/* Intro to Motion */}
-    <WipDescription>
-      <H2>Intro to Framer Motion</H2>
-      <PDescription>
-        <Description>Description:</Description> I built this for a lecture I did
-        on Framer Motion.
-      </PDescription>
-    </WipDescription>
-    <IframeStyled
-      src="https://codesandbox.io/embed/intro-to-motion-design-2gkye?fontsize=14&hidenavigation=1&theme=dark"
-      sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
-    />
-    {/* Drag and Drop */}
-    <WipDescription>
-      <H2>React Drag and Drop</H2>
-      <PDescription>
-        <Description>Description:</Description> This is a proof of concept for a
-        drag and drop component.
-      </PDescription>
-    </WipDescription>
-    <IframeStyled
-      src="https://codesandbox.io/embed/drag-n-drop-poc-qyjwq?fontsize=14&hidenavigation=1&theme=dark"
-      sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
-    />
-    {/* Theme toggler */}
-    <WipDescription>
-      <H2>Theme Toggle</H2>
-      <PDescription>
-        <Description>Description:</Description> Using React Context API, toggle
-        between light and dark themes.
-      </PDescription>
-    </WipDescription>
-    <IframeStyled
-      src="https://codesandbox.io/embed/k9zq4vzy7?view=preview"
-      sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
-    />
-    {/* SVG Gradients */}
-    <WipDescription>
-      <H2>SVG Gradients</H2>
-      <PDescription>
-        <Description>Description:</Description> Using svg mask and css variables
-        to control simulated gradients.
-      </PDescription>
-    </WipDescription>
-    <IframeStyled
-      src="https://codesandbox.io/embed/vars-svg-gradients-oh-my-42sym?fontsize=14&hidenavigation=1&theme=dark&view=preview"
-      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-    />
-    {/* Recursion */}
-    <WipDescription>
-      <H2>Recursion</H2>
-      <PDescription>
-        <Description>Description:</Description> Practicing some different
-        applications for recursion.
-      </PDescription>
-    </WipDescription>
-    <IframeStyled
-      src="https://codesandbox.io/embed/jl2p1yl9n9?expanddevtools=1&hidenavigation=1"
-      sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
-    />
-    {/* Higher order functions */}
-    <WipDescription>
-      <H2>Higher Order Functions</H2>
-      <PDescription>
-        <Description>Description:</Description> Practicing some data
-        manipulation with higher order functions.
-      </PDescription>
-    </WipDescription>
-    <IframeStyled
-      src="https://codesandbox.io/embed/k24qn1kny5?expanddevtools=1&fontsize=14&hidenavigation=1&theme=dark"
-      sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
-    />
+    <div
+      style={{
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        margin: '8rem auto 4rem',
+      }}
+    >
+      <Link
+        href="https://codesandbox.io/u/Kelbster/sandboxes"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Click here for more of my CodeSandboxes.
+      </Link>
+    </div>
   </WipStyled>
 );
 
