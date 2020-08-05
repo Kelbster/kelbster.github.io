@@ -28,7 +28,10 @@ const Wip = () => (
         vanilla html, css, and js.
       </PDescription>
     </WipDescription>
-    <IframeStyled src="https://codepen.io/Kelbster/full/ZEQdWMZ" />
+    <IframeStyled
+      src="https://codesandbox.io/embed/stupefied-dew-pi43d?fontsize=14&hidenavigation=1&theme=dark&view=preview"
+      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+    />
     {/* Pokemon team builder */}
     <WipDescription>
       <H2>Pokemon Team Builder</H2>
@@ -82,10 +85,13 @@ const Wip = () => (
       <H2>SVG Gradients</H2>
       <PDescription>
         <Description>Description:</Description> Using svg mask and css variables
-        to control gradients.
+        to control simulated gradients.
       </PDescription>
     </WipDescription>
-    <IframeStyled src="https://codepen.io/Kelbster/full/JrQypK" />
+    <IframeStyled
+      src="https://codesandbox.io/embed/vars-svg-gradients-oh-my-42sym?fontsize=14&hidenavigation=1&theme=dark&view=preview"
+      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+    />
     {/* Recursion */}
     <WipDescription>
       <H2>Recursion</H2>
